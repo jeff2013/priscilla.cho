@@ -1,0 +1,29 @@
+### react ###
+node_modules
+*.log*
+logs
+**/*.backup.*
+**/*.back.*
+
+### Vim ###
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+.serverless/
+.env.js
+
+### vscode ###
+.vscode
+
+### Mac env ###
+.DS_Store
