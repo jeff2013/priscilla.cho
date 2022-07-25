@@ -1,0 +1,21 @@
+.logo {
+    max-width: 10rem;
+    height: auto;
+
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-li {
+   padding: 1rem 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    
+}

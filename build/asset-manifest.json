@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a62d297.css",
-    "main.js": "/static/js/main.06fff16a.js",
+    "main.css": "/static/css/main.b69fda5b.css",
+    "main.js": "/static/js/main.300ac520.js",
     "static/media/pc-logo.png": "/static/media/pc-logo.3ffbbbc6ac735dc01ed2.png",
     "index.html": "/index.html",
-    "main.6a62d297.css.map": "/static/css/main.6a62d297.css.map",
-    "main.06fff16a.js.map": "/static/js/main.06fff16a.js.map"
+    "main.b69fda5b.css.map": "/static/css/main.b69fda5b.css.map",
+    "main.300ac520.js.map": "/static/js/main.300ac520.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a62d297.css",
-    "static/js/main.06fff16a.js"
+    "static/css/main.b69fda5b.css",
+    "static/js/main.300ac520.js"
   ]
 }
