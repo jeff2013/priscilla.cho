@@ -1,4 +1,3 @@
-import '../home/home.css';
 import './contact.css';
 import email from '../img/email.png';
 import linkedin from '../img/linkedin.png'
