@@ -29,6 +29,7 @@
 }
 
 .contact-link:hover {
+    font-style: italic;
     color: #64AAFB;
     transition: ease-in-out;
 }
