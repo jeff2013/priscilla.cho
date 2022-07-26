@@ -11,10 +11,13 @@ const Navbar = () => {
             <Link className="nav-link" to="/"><img className="logo" src={logo} alt="priscilla cho"/></Link>
           </li>
           <li className="nav-li">
-            <Link className="nav-link" to="/projects">Projects</Link>
+            <Link className="nav-link" to="/projects">projects</Link>
           </li>
           <li className="nav-li">
-            <Link className="nav-link" to="/resume">Resume</Link>
+            <Link className="nav-link" to="/contact">contact</Link>
+          </li>
+          <li className="nav-li">
+            <Link className="nav-link" to="/resume">resume</Link>
           </li>
         </ul>
       </nav>

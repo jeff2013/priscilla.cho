@@ -1,13 +1,13 @@
 .logo {
     max-width: 10rem;
     height: auto;
-
 }
 
 .nav {
     list-style: none;
     display: flex;
     flex-direction: row;
+    padding: 0 4rem;
 }
 
 .nav-li {
@@ -16,6 +16,11 @@
 
 .nav-link {
     text-decoration: none;
-    color: black;
-    
+    color: rgb(138, 138, 138);
+}
+
+.nav-link:hover {
+    font-style: italic;
+    color: #64AAFB;
+    transition: ease-in-out;
 }

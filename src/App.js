@@ -3,6 +3,7 @@ import './App.css';
 import Home from './pages/home/home';
 import Navbar from './pages/navbar/navbar';
 import Projects from './pages/projects/projects';
+import Contact from './pages/contact/contact';
 import Resume from './pages/resume/resume';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
                 <Route path="/" element={<Navbar />}>
                     <Route index element={<Home />} />
                     <Route path="/projects" element={<Projects />} />
+                    <Route path="/contact" element={<Contact />} />
                     <Route path="/resume" element={<Resume />} />
                 </Route>
             </Routes>
