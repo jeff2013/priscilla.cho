@@ -1,6 +1,6 @@
 import "../home/home.css";
 
-function Pantry() {
+function ThePantry() {
     return (
         <div className="home">
             <h1 className="intro">The Pantry</h1>
@@ -9,4 +9,4 @@ function Pantry() {
     )
 }
 
-export default Pantry; 
+export default ThePantry; 

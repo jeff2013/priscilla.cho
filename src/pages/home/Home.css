@@ -1,5 +1,5 @@
 .home {
-    padding: 0 3rem;
+    margin: 0 3rem;
 }
 
 .intro-header{
@@ -8,4 +8,82 @@
 
 .intro{
     font-size: 0.8rem;
+}
+
+.small-intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid;
+    border-width: 0.25px;
+    border-color: #C9C9C9;
+}
+
+.small-intro-gap {
+    display: flex;
+    flex-direction: row;
+    gap: 14.75rem;
+    margin: 0.5rem 0;
+}
+
+.small-intro-title {
+    font-size: 0.7rem;
+    color: #A8A8A8;
+    margin: 0;
+}
+
+.small-intro-body {
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+.work {
+    margin: 2rem 0;
+}
+
+.work-container .first {
+    padding-left: 2rem;
+}
+
+
+.work-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-img {
+    height: 30rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid;
+    border-width: 0.25px;
+    border-color: #C9C9C9;
+}
+
+.work-title-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.w-title {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.w-date {
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.work-info {
+    padding-top: 0.5rem;
+}
+
+.work-info-body {
+    font-size: 0.7rem;
+    color: #878787;
+    margin: 0;
 }

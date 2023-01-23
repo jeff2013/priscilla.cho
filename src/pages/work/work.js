@@ -9,7 +9,7 @@ import reverieHighlight from '../img/REVERIE-HL.png'
 import pantry from '../img/PANTRY.png'
 import pantryHighlight from '../img/PANTRY-HL.png'
 
-function Projects() {
+function Work() {
     return (
         <div className="home">
             <h1 className="intro-header">Projects</h1>
@@ -46,4 +46,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default Work;
