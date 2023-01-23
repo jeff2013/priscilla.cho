@@ -25,7 +25,7 @@ const Navbar = () => {
               <Link className="nav-link highlight" to="/about">ABOUT</Link>
             </li>
             <li className="nav-li">
-              <a className="nav-link highlight" to="/https://drive.google.com/file/d/1_u2HnJtjHxYwUCidt6yo4BBbAs9eBnlF/view?usp=sharing">RESUME</a>
+              <a className="nav-link highlight" href="/https://drive.google.com/file/d/1_u2HnJtjHxYwUCidt6yo4BBbAs9eBnlF/view?usp=sharing">RESUME</a>
             </li>
           </div>
         </ul>
