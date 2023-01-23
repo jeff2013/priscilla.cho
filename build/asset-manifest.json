@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b15c19e3.css",
+    "main.css": "/static/css/main.819727ca.css",
     "main.js": "/static/js/main.18e63a91.js",
     "static/media/REVERIE-HL.png": "/static/media/REVERIE-HL.6a8916dc5bf27cb1c442.png",
     "static/media/REVERIE.png": "/static/media/REVERIE.1b613bdb3e36961a9bfa.png",
@@ -13,11 +13,11 @@
     "static/media/EASE.png": "/static/media/EASE.09f66d6ba39a76305817.png",
     "static/media/PANTRY.png": "/static/media/PANTRY.966e4fa931a936ac346e.png",
     "index.html": "/index.html",
-    "main.b15c19e3.css.map": "/static/css/main.b15c19e3.css.map",
+    "main.819727ca.css.map": "/static/css/main.819727ca.css.map",
     "main.18e63a91.js.map": "/static/js/main.18e63a91.js.map"
   },
   "entrypoints": [
-    "static/css/main.b15c19e3.css",
+    "static/css/main.819727ca.css",
     "static/js/main.18e63a91.js"
   ]
 }

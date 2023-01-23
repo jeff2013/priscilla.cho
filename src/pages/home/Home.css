@@ -17,6 +17,7 @@
     border-bottom: solid;
     border-width: 0.25px;
     border-color: #C9C9C9;
+    padding-top: 3rem;
 }
 
 .small-intro-gap {
@@ -40,10 +41,12 @@
 
 .work {
     margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
 }
 
-.work-container .first {
-    padding-left: 2rem;
+.work-container.first {
+    padding-right: 2.25rem;
 }
 
 
