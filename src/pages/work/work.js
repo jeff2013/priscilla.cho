@@ -1,4 +1,5 @@
 import '../work/work.css';
+import '../home/home.css';
 import { Outlet, Link } from "react-router-dom";
 import kalmont from '../img/KMRS.png'
 import kalmontHighlight from '../img/KMRS-HL.png'

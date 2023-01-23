@@ -63,6 +63,16 @@
     border-color: #C9C9C9;
 }
 
+.work-img:hover{
+    opacity: 60%;
+    transition: ease-in-out;
+}
+
+.work-img:active {
+    opacity: 60%;
+    transition: ease-in-out;
+}
+
 .work-title-info {
     display: flex;
     flex-direction: row;
