@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="contact">
             <div>
-                <p>Contact</p>
+                <p className='sub-header'>Contact</p>
             </div>
             <div>
                 <div className='contact-item'>
