@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.00e76704.css",
-    "main.js": "/static/js/main.a2a172cd.js",
-    "static/media/email.png": "/static/media/email.7e62636f1572d645ac6c.png",
-    "static/media/linkedin.png": "/static/media/linkedin.2ba4dc7b9a030bf3ed0c.png",
-    "static/media/pc-logo.png": "/static/media/pc-logo.3ffbbbc6ac735dc01ed2.png",
+    "main.css": "/static/css/main.5d47585c.css",
+    "main.js": "/static/js/main.6222dca7.js",
+    "static/media/REVERIE-HL.png": "/static/media/REVERIE-HL.6a8916dc5bf27cb1c442.png",
+    "static/media/REVERIE.png": "/static/media/REVERIE.1b613bdb3e36961a9bfa.png",
+    "static/media/KMRS-HL.png": "/static/media/KMRS-HL.c495a21d4ebdebc18fd3.png",
+    "static/media/KMRS.png": "/static/media/KMRS.c0646b11f7a5d9cb6674.png",
+    "static/media/EASE-HL.png": "/static/media/EASE-HL.d0ca2194ad9ca7ee7cf6.png",
+    "static/media/PANTRY-HL.png": "/static/media/PANTRY-HL.77ab1ec751a61cd0c49c.png",
+    "static/media/EASE.png": "/static/media/EASE.09f66d6ba39a76305817.png",
+    "static/media/PANTRY.png": "/static/media/PANTRY.966e4fa931a936ac346e.png",
     "index.html": "/index.html",
-    "main.00e76704.css.map": "/static/css/main.00e76704.css.map",
-    "main.a2a172cd.js.map": "/static/js/main.a2a172cd.js.map"
+    "main.5d47585c.css.map": "/static/css/main.5d47585c.css.map",
+    "main.6222dca7.js.map": "/static/js/main.6222dca7.js.map"
   },
   "entrypoints": [
-    "static/css/main.00e76704.css",
-    "static/js/main.a2a172cd.js"
+    "static/css/main.5d47585c.css",
+    "static/js/main.6222dca7.js"
   ]
 }

@@ -1,13 +1,23 @@
 body {
   margin: 0;
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  font-family: 'Garamond', serif;
+  font-weight: 300;
+}
+
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+li {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6rem;
 }
 
 code {

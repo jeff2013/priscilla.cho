@@ -1,13 +1,11 @@
 .home {
-    padding: 0 2rem;
+    padding: 0 3rem;
 }
 
 .intro-header{
-    margin: 2rem 4rem 1rem 4rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .intro{
-    margin: 0 4rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }

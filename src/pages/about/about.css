@@ -1,0 +1,39 @@
+.contact {    
+    margin: 0 3rem;
+    border-top: solid;
+    border-width: 0.25px;
+    border-color: #C9C9C9;
+}
+
+.contact-item {
+    padding: 0 27.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.contact-content {
+    padding: 1rem 0 0 0;
+}
+
+.contact-img {
+    max-width: 6rem;
+    height: auto;
+}
+
+.contact-h2 {
+    margin: 0.5rem 0 0 0;
+}
+
+.contact-link {
+    margin: 0.5rem 0;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-link:hover {
+    font-style: italic;
+    color: #64AAFB;
+    transition: ease-in-out;
+}

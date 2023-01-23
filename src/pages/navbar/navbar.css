@@ -1,26 +1,57 @@
 .logo {
+    position: relative;
     max-width: 10rem;
     height: auto;
+}
+
+.card {
+    position: relative;
+}
+
+.card .logo-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 99;
+}
+
+.card:hover .logo-hover {
+    display: flex;
+}
+
+.card:hover .no-hover {
+    opacity: 0%;
 }
 
 .nav {
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding: 0 4rem;
+    justify-content: space-between;
+    padding: 1rem 3rem;
 }
 
-.nav-li {
-   padding: 1rem 2rem;
+.nav-gap {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
 }
 
 .nav-link {
     text-decoration: none;
-    color: rgb(138, 138, 138);
+    color: black;
 }
 
-.nav-link:hover {
+.highlight:hover{
     font-style: italic;
-    color: #64AAFB;
+    color: #779FEC;
     transition: ease-in-out;
 }
+
+.highlight:active {
+    font-style: italic;
+    color:  #779FEC;
+    transition: ease-in-out;
+}
+

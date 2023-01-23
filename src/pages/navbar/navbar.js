@@ -1,6 +1,8 @@
 import './navbar.css';
 import { Outlet, Link } from "react-router-dom";
 import logo from '../img/pc-logo.png';
+import logoHover from '../img/pc-logo-blue.png';
+
 
 const Navbar = () => {
   return (
@@ -8,17 +10,24 @@ const Navbar = () => {
       <nav>
         <ul className="nav">
           <li className="nav-li">
-            <Link className="nav-link" to="/"><img className="logo" src={logo} alt="priscilla cho"/></Link>
+            <div className='card'>
+              <Link className="nav-link" to="/">
+                <img className="logo no-hover" src={logo} alt="Priscilla Cho"/>
+                <img className="logo logo-hover" src={logoHover} alt="Priscilla Cho"/>
+              </Link>
+            </div>
           </li>
-          <li className="nav-li">
-            <Link className="nav-link" to="/projects">projects</Link>
-          </li>
-          <li className="nav-li">
-            <Link className="nav-link" to="/contact">contact</Link>
-          </li>
-          <li className="nav-li">
-            <Link className="nav-link" to="/resume">resume</Link>
-          </li>
+          <div className='nav-gap'>
+            <li className="nav-li">
+              <Link className="nav-link highlight" to="/work">WORK</Link>
+            </li>
+            <li className="nav-li">
+              <Link className="nav-link highlight" to="/about">ABOUT</Link>
+            </li>
+            <li className="nav-li">
+              <Link className="nav-link highlight" to="/https://drive.google.com/file/d/1_u2HnJtjHxYwUCidt6yo4BBbAs9eBnlF/view?usp=sharing">RESUME</Link>
+            </li>
+          </div>
         </ul>
       </nav>
 
