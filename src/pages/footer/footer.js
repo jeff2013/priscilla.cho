@@ -12,11 +12,13 @@ const Footer = () => {
                             <a className="footer-link highlight" href="mailto:priscilla_cho@hotmail.com">priscilla_cho@hotmail.com</a>
                         </li>
                     </div>
-                    <div>
-                        <p className='footer-p'>Here my resume :)</p>
-                        <li className="footer-li">
-                            <a className="footer-link highlight" href="https://drive.google.com/file/d/1Pdo0vFhnLz5k5ZDSISFMjR6_V20oTLvu/view?usp=share_link">Resume</a>
-                        </li>
+                    <div className='footer-col-two'>
+                        <div>
+                            <p className='footer-p'>Here my resume :)</p>
+                            <li className="footer-li">
+                                <a className="footer-link highlight" href="https://drive.google.com/file/d/1Pdo0vFhnLz5k5ZDSISFMjR6_V20oTLvu/view?usp=share_link">Resume</a>
+                            </li>
+                        </div>
                     </div>
                 </div>
                 <li className="footer-li">

@@ -19,7 +19,7 @@ const Navbar = () => {
           </li>
           <div className='nav-gap'>
             <li className="nav-li">
-              <Link className="nav-link highlight" to="/hoochyboochkombucha">WORK</Link>
+              <Link className="nav-link highlight" to="/hoochyboochkombucha">RECENT WORK</Link>
             </li>
             <li className="nav-li">
               <Link className="nav-link highlight" to="/about">ABOUT</Link>

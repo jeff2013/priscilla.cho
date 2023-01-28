@@ -17,13 +17,13 @@ function Home() {
                         <p className="small-intro-body">Aspiring UX/UI designer and design student</p>
                     </div>
                     <div>
-                        <p className="small-intro-title">Things I find pleasure in...</p>
-                        <p className="small-intro-body">Drinking coffee, playing volleyball + reading</p>
+                        <p className="small-intro-title">Where I’m located</p>
+                        <p className="small-intro-body">Vancouver, B.C.</p>
                     </div>
                 </div>
-                <div>
-                    <p className="small-intro-title">Where I’m located</p>
-                    <p className="small-intro-body">Vancouver, B.C.</p>
+                <div className="small-intro-col-two">
+                    <p className="small-intro-title">Things I find pleasure in...</p>
+                    <p className="small-intro-body">Drinking coffee, playing volleyball + reading</p>
                 </div>
             </div>
             <div className="work">
@@ -40,8 +40,8 @@ function Home() {
                         </div>
                         <div>
                             <p className="work-info-body">
-                                A 7-week research project using various research methods to evaluate 
-                                and provide recommendations for Hoochy ‘Booch’s website
+                            A 7-week academic research project using various research methods to evaluate and provide 
+                            design recommendations for Hoochy ‘Booch’s website to decrease friction within users’ buying experience. 
                             </p>
                         </div>
                     </div>
@@ -55,12 +55,12 @@ function Home() {
                     <div className="work-info">
                         <div className="work-title-info">
                             <p className="w-title">The Pantry</p>
-                            <p className="w-date">User Experience + User Interface (2021)</p>
+                            <p className="w-date">User Interface (2021)</p>
                         </div>
                         <div>
                             <p className="work-info-body">
-                                A 6-week design project, creating an application for university students 
-                                during the pandemic for culinary exploration and reduce food waste
+                            A 6-week academic design project, ideating, wire framing and prototyping an application for 
+                            university students during the pandemic for culinary exploration and reduce food waste.
                             </p>
                         </div>
                     </div>

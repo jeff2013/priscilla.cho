@@ -27,6 +27,12 @@
     margin: 0.5rem 0;
 }
 
+.small-intro-col-two {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
 .small-intro-title {
     font-size: 0.7rem;
     color: #A8A8A8;
@@ -99,4 +105,6 @@
     font-size: 0.7rem;
     color: #878787;
     margin: 0;
+    padding-top: 0.3rem;
+    line-height: 0.9rem;
 }
