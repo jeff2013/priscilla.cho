@@ -16,7 +16,7 @@ const Footer = () => {
                         <div>
                             <p className='footer-p'>Here's my resume :)</p>
                             <li className="footer-li">
-                                <a className="footer-link highlight" href="https://drive.google.com/file/d/1Pdo0vFhnLz5k5ZDSISFMjR6_V20oTLvu/view?usp=share_link">Resume</a>
+                                <a className="footer-link highlight" href="https://drive.google.com/file/d/1KJHWejpTliuZ-jPi47t_y25JvBtcH2OT/view?usp=share_link">Resume</a>
                             </li>
                         </div>
                     </div>
