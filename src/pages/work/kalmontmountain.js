@@ -1,6 +1,6 @@
 import "../home/home.css";
 
-function Kalmont() {
+function KalmontMountainResureAndSaftey() {
     return (
         <div className="home">
             <p className="intro">Kalmont Mountain</p>
@@ -8,4 +8,4 @@ function Kalmont() {
     )
 }
 
-export default Kalmont; 
+export default KalmontMountainResureAndSaftey; 
