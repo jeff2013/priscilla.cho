@@ -1,23 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7afd764f.css",
-    "main.js": "/static/js/main.d01e18a6.js",
-    "static/media/REVERIE-HL.png": "/static/media/REVERIE-HL.6a8916dc5bf27cb1c442.png",
-    "static/media/REVERIE.png": "/static/media/REVERIE.1b613bdb3e36961a9bfa.png",
-    "static/media/KMRS-HL.png": "/static/media/KMRS-HL.c495a21d4ebdebc18fd3.png",
-    "static/media/KMRS.png": "/static/media/KMRS.c0646b11f7a5d9cb6674.png",
+    "main.css": "/static/css/main.37a887e9.css",
+    "main.js": "/static/js/main.d710a472.js",
     "static/media/The-Pantry.png": "/static/media/The-Pantry.32755abe6d7a034ee749.png",
     "static/media/Hoochy-Booch.png": "/static/media/Hoochy-Booch.9e968f1d8267b81a1181.png",
-    "static/media/EASE-HL.png": "/static/media/EASE-HL.d0ca2194ad9ca7ee7cf6.png",
-    "static/media/PANTRY-HL.png": "/static/media/PANTRY-HL.77ab1ec751a61cd0c49c.png",
-    "static/media/EASE.png": "/static/media/EASE.09f66d6ba39a76305817.png",
-    "static/media/PANTRY.png": "/static/media/PANTRY.966e4fa931a936ac346e.png",
+    "static/media/HB-1512.png": "/static/media/HB-1512.682f1338d981a8c22f6b.png",
     "index.html": "/index.html",
-    "main.7afd764f.css.map": "/static/css/main.7afd764f.css.map",
-    "main.d01e18a6.js.map": "/static/js/main.d01e18a6.js.map"
+    "main.37a887e9.css.map": "/static/css/main.37a887e9.css.map",
+    "main.d710a472.js.map": "/static/js/main.d710a472.js.map"
   },
   "entrypoints": [
-    "static/css/main.7afd764f.css",
-    "static/js/main.d01e18a6.js"
+    "static/css/main.37a887e9.css",
+    "static/js/main.d710a472.js"
   ]
 }
