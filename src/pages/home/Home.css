@@ -2,12 +2,31 @@
     margin: 0 3rem;
 }
 
-.intro-header{
-    font-size: 2rem;
+.me-intro {
+    display: flex;
+    flex-direction: row;
+    gap: 13.75rem;
+    margin-bottom: 3rem;
 }
 
-.intro{
-    font-size: 0.8rem;
+.intro-header{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.welcome {
+    font-weight: 200;
+    font-size: 14px;
+    color: #a2a2a2;
+    margin: 0;
+    padding: 0 0 0.5rem 0;
+}
+
+.home-intro{
+    font-size: 1rem;
+    margin: 0;
+    max-width: 35rem;
+    line-height: 1.5rem
 }
 
 .small-intro{

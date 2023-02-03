@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.37a887e9.css",
-    "main.js": "/static/js/main.d710a472.js",
+    "main.css": "/static/css/main.c41801ef.css",
+    "main.js": "/static/js/main.29136ffb.js",
     "static/media/The-Pantry.png": "/static/media/The-Pantry.32755abe6d7a034ee749.png",
     "static/media/Hoochy-Booch.png": "/static/media/Hoochy-Booch.9e968f1d8267b81a1181.png",
     "static/media/HB-1512.png": "/static/media/HB-1512.682f1338d981a8c22f6b.png",
     "index.html": "/index.html",
-    "main.37a887e9.css.map": "/static/css/main.37a887e9.css.map",
-    "main.d710a472.js.map": "/static/js/main.d710a472.js.map"
+    "main.c41801ef.css.map": "/static/css/main.c41801ef.css.map",
+    "main.29136ffb.js.map": "/static/js/main.29136ffb.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a887e9.css",
-    "static/js/main.d710a472.js"
+    "static/css/main.c41801ef.css",
+    "static/js/main.29136ffb.js"
   ]
 }

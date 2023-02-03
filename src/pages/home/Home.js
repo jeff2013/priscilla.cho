@@ -6,9 +6,17 @@ import HoochyBooch from '../img/Hoochy-Booch.png';
 function Home() {
     return (
         <div className="home">
-            <div>
-                <h1 className="intro-header">welcome! I'm Priscilla, nice to meet you :)</h1>
-                <p className="intro">currently under construction, good stuff coming soon.</p>
+            <div className="me-intro">
+                <h1 className="intro-header">hi! I'm Priscilla Cho</h1>
+                <div>
+                    <p className="welcome">welcome</p>
+                    <p className="home-intro">
+                        I’m currently a student studying Interactive Arts + Technology with a concentration in Design at Simon Fraser University. 
+                        I’m passionate about using different forms of design to create products and features to communicate 
+                        and produce meaningful interactions with targetted users. 
+ 
+                    </p>
+                </div>
             </div>
             <div className="small-intro">
                 <div className="small-intro-gap">
