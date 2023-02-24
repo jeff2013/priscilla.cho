@@ -9,8 +9,19 @@ body {
 }
 
 h1 {
-  font-family: "adobe-garamond-pro", 'Baskerville','Baskerville Old Face','Hoefler Text','Times New Roman',serif;
+  font-family: 'franklin-gothic-atf', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;    
   font-weight: 500;
+}
+
+h3 {
+  font-family: 'DM Mono', monospace;
+  font-weight: 300;
+}
+
+h4 {
+  font-family: 'DM Mono', monospace;
+  font-weight: 300;
 }
 
 li {

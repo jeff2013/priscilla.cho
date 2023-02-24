@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <ul className="nav">
+        <ul className="nav-bar">
           <li className="nav-li">
-            <div className='card'>
+            <div className='cardlogo'>
               <Link className="nav-link" to="/">
                 <img className="logo no-hover" src={logo} alt="Priscilla Cho"/>
                 <img className="logo logo-hover" src={logoHover} alt="Priscilla Cho"/>

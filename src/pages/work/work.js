@@ -8,7 +8,6 @@ function Work() {
         <div className="home">
             <h1 className="intro-header">Projects</h1>
             <div className='projects'>
-\
             </div>
         </div>
     )

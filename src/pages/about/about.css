@@ -1,8 +1,26 @@
-.contact {    
-    margin: 0 3rem;
-    border-top: solid;
+.about-bio {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid;
     border-width: 0.25px;
     border-color: #C9C9C9;
+}
+
+.about-info {
+    padding: 4.5rem 0 3rem 0;
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+}
+
+.about-title {
+    color: #323232;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 3rem 7.25rem 6rem 0;
+}
+
+.contact {    
     display: flex;
     flex-direction: row;
 }
@@ -10,6 +28,7 @@
 .sub-header {
     color: #A8A8A8;
     font-size: 0.8rem;
+    padding: 1rem 0 0 0;
 }
 
 .contact-item {

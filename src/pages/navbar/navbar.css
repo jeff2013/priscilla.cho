@@ -4,11 +4,11 @@
     height: auto;
 }
 
-.card {
+.cardlogo {
     position: relative;
 }
 
-.card .logo-hover{
+.cardlogo .logo-hover{
     display: none;
     position: absolute;
     top: 0;
@@ -16,15 +16,15 @@
     z-index: 99;
 }
 
-.card:hover .logo-hover {
+.cardlogo:hover .logo-hover {
     display: flex;
 }
 
-.card:hover .no-hover {
+.cardlogo:hover .no-hover {
     opacity: 0%;
 }
 
-.nav {
+.nav-bar {
     list-style: none;
     display: flex;
     flex-direction: row;

@@ -11,7 +11,7 @@
 }
 
 .intro {
-    font-size: 0.8rem;
+    font-size: 1.6rem;
     margin: 0;
 }
 
@@ -24,19 +24,28 @@
     border-color: #C9C9C9;
     margin-top: 1rem;
     padding-bottom: 1rem;
-    gap: 20rem;
 }
 
 .work-gap {
     display: flex;
     flex-direction: row;
-    gap: 15.5rem;
+    gap: 4rem;
 }
 
 .work-intro-p {
     font-size: 0.7rem;
-    margin: 0.25rem 0 0 0;
+    margin: 0.35rem 0 0 0;
     width: 25rem;
+}
+
+.grey {
+    color: #8a8a8a;
+    margin: 0;
+}
+
+/* this project has no other half */
+.half {
+    width: 49%;
 }
 
 .work-cc {
@@ -57,4 +66,99 @@
     color: #A8A8A8;
     font-size: 0.7rem;
     margin: 0 0 0.15rem 0;
+}
+
+.work-subheader {
+    color: #8a8a8a;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.work-link {
+    text-decoration: underline;
+    color: black;
+}
+
+.work-link:hover {
+    font-style: italic;
+    color: #779FEC;
+    transition: ease-in-out;
+}
+
+.work-link:active {
+    font-style: italic;
+    color: #779FEC;
+    transition: ease-in-out;
+}
+
+.fig-cap {
+    font-style: italic;
+    color: #929292;
+    font-size: 10px;
+    padding-top: 0.5rem;
+}
+
+.div-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.four {
+    color: #929292;
+    font-size: 0.8rem;
+    margin-top: 4rem;
+}
+
+.sub-four {
+    margin-top: 1.5rem;
+}
+
+.work-p {
+    font-size: 0.8rem;
+    width: 30rem;
+    margin: 0;
+}
+
+.p-space {
+    padding-top: 1rem;
+}
+
+.work-sub {
+    margin-bottom: 3rem;
+}
+
+.work-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.first-col {
+    padding-right: 8rem;
+}
+
+.bus-goal {
+    width: 100%;
+}
+
+.sub-p {
+    width: 20rem;
+}
+
+.work-carousel {
+    width: 76rem;
+}
+
+.carousel-indicators [data-bs-target] { 
+    background-color: rgb(113, 113, 113);
+}
+
+.carousel-control-prev-icon {
+    background-image: url("arrow-back.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("arrow-next.svg");
 }
