@@ -11,16 +11,27 @@ function About() {
                 </h1> 
                 <div className='about-info'>
                     <div className='about-info-div'>
-                        <p className="small-intro-title">A designer + student</p>
-                        <p className="small-intro-body">Aspiring UX/UI designer and design student</p>
+                        <p className="small-intro-title">I'm a designer + student</p>
+                        <p className="small-intro-body">
+                            My skills as a designer are grounded in visual and graphic design, but my growing sense of passion for creating practical tools and improving user experiences stem from many academic projects and case studies.
+                            I constantly seeking new ways to improve upon existing designs and to create innovative solutions that solve real-world problems
+                        </p>
                     </div>
                     <div className='about-info-div'>
-                        <p className="small-intro-title">An athlete</p>
-                        <p className="small-intro-body">Vancouver, B.C.</p>
+                        <p className="small-intro-title">I'm an athlete</p>
+                        <p className="small-intro-body">
+                            Volleyball is more than just a game to me, it's a true passion that has been a significant part of my life for 12 years. 
+                            Playing volleyball has not only been a source of enjoyment but also a valuable learning experience. 
+                            I developed important life skills such as teamwork, communication, and discipline through the sport. 
+                            Volleyball has taught me the value of hard work, persistence, and determination. 
+                            It's a sport that has brought me countless hours of joy and personal growth, and I can't imagine my life without it.
+                        </p>
                     </div>
                     <div className='about-info-div'>
                         <p className="small-intro-title">Other things I find pleasure in...</p>
-                        <p className="small-intro-body">Drinking coffee, playing volleyball + reading</p>
+                        <p className="small-intro-body">
+                            Drinking overly sweet latte + reading
+                        </p>
                     </div>
                 </div>
             </div>

@@ -36,32 +36,6 @@
     padding-top: 3rem;
 }
 
-.small-intro-gap {
-    display: flex;
-    flex-direction: row;
-    gap: 14.75rem;
-    margin: 0.5rem 0;
-}
-
-.small-intro-col-two {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem 0;
-}
-
-.small-intro-title {
-    font-family: 'DM Mono', monospace;
-    font-size: 0.7rem;
-    color: #A8A8A8;
-    margin: 0;
-}
-
-.small-intro-body {
-    font-size: 0.7rem;
-    margin: 0;
-    padding: 0.25rem 0;
-}
-
 .location {
     display: flex;
     flex-direction: column;
