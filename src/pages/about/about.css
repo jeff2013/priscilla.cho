@@ -9,8 +9,8 @@
 .about-info {
     padding: 4.5rem 0 3rem 0;
     display: flex;
-    flex-direction: row;
-    gap: 12rem;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .about-title {
