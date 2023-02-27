@@ -121,20 +121,18 @@ function HoochyBoochKombucha() {
                             </p>
                             <h4 className="work-subheader four">usability testing</h4>
                             <p className="work-p"> 
-                                Through our process, we were able to gain valuable insights into the needs and behaviors of both existing and potential customers. 
-                                By performing scenario-based tasks and conducting pre- and post-interview questionnaires, we were able to identify key pain points and areas for improvement in 
-                                our products and services. These insights have been instrumental in helping us to create more meaningful experiences for our customers and to continually 
-                                enhance our offerings to better meet their needs.
+                                We gain valuable insights into the needs and behaviors of both existing and potential customers. 
+                                By performing scenario-based tasks and conducting pre- and post-interview questionnaires, we identified key pain points and areas for improvement in 
+                                the products and services. These insights enabled us to create more meaningful experiences for users and better meet users' needs.
                             </p>
                             <p className="work-p p-space">
-                                Our study was designed with both validity and reliability in mind. We recruited appropriate target users and provided them with realistic tasks that accurately represented our product's intentions. 
+                                Our study was designed with both validity and reliability in mind. We recruited appropriate target users and provided them with realistic tasks. 
                                 This allowed us to collect rich, thick descriptions of data and observations that were representative of the true user experience.
 
                                 To ensure consistency and reliability, all participants completed the same tasks and questionnaires, and all interviewers followed the same test protocols. 
                                 We also took great care to analyze the data using established methods and techniques, which allowed us to draw meaningful and accurate conclusions from our findings.
                             </p>
                         </div>
-                        <div className="div-img">   
                         <div className="work-carousel">
                                 <Carousel>
                                     <Carousel.Item>
@@ -160,16 +158,15 @@ function HoochyBoochKombucha() {
                                     </Carousel.Item>
                                 </Carousel>
                             </div>
-                            <p className="fig-cap">Usability testing questions and tasks for each participant</p>
-                        </div>
                    </div>
                    <div className="work-sub work-row">
                         <div>
                             <h3 className="work-subheader">discovering key findings</h3>
                             <p className="work-p"> 
                                 We used affinity diagramming to organize all of the meaningful comments provided by our study participants. 
-                                This allowed us to create natural relationships between the issues and better understand the key pain points and areas of improvement.
-
+                                By creating relationships between issues, the process helped us better understnad key pain points and areas for improvement.
+                            </p>
+                            <p className="work-p p-space">
                                 Once we had identified the issues, we then grouped them based on their occurrence on the site. 
                                 This allowed us to gain a better understanding of the most critical issues and prioritize our efforts accordingly. 
                                 By leveraging this approach, we were able to gain a more comprehensive understanding of the user experience and develop actionable 
@@ -184,33 +181,30 @@ function HoochyBoochKombucha() {
                                 Lack of clarity with interactable elements on the site, leading to user confusion and loss of trust.
                             </p>
                         </div>
-                        <div className="div-img">
-                            <div className="work-carousel">
-                                <Carousel>
-                                    <Carousel.Item>
-                                        <img
-                                            className="d-block w-100"
-                                            src={HBAD1}
-                                            alt="Snapshots of affinity diagramming process - part one"
-                                        />
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img
-                                            className="d-block w-100"
-                                            src={HBAD2}
-                                            alt="Snapshots of affinity diagramming process - part two"
-                                        />
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img
-                                            className="d-block w-100"
-                                            src={HBAD3}
-                                            alt="Results of affinity diagramming and uncovering key findings"
-                                        />
-                                    </Carousel.Item>
-                                </Carousel>
-                            </div>
-                            <p className="fig-cap">Affinity diagramming process to discover overarching issues</p>
+                        <div className="work-carousel">
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={HBAD1}
+                                        alt="Snapshots of affinity diagramming process - part one"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={HBAD2}
+                                        alt="Snapshots of affinity diagramming process - part two"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={HBAD3}
+                                        alt="Results of affinity diagramming and uncovering key findings"
+                                    />
+                                </Carousel.Item>
+                            </Carousel>
                         </div>
                    </div>
                    
@@ -278,16 +272,8 @@ function HoochyBoochKombucha() {
                             of maintaining brand consistency while also incorporating design best practices and creating engaging 
                             user experiences.
                         </p> 
-                        <h4 className="work-subheader four sub-four">next steps</h4>
-                        <p className="work-p sub-p"> 
-                            If granted more time, I would prioritize additional usability testing to further refine the prototype and reduce any remaining 
-                            issues causing confusion or friction for users.
-                            This would inform further iterations of the design and ensure that the final product delivers the best possible user experience. 
-                        </p>
                     </div>
                 </div>
-
-                
             </div>
         </div>
     )

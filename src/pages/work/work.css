@@ -102,10 +102,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    width: 76rem;
 }
 
 .four {
-    color: #929292;
+    color: #7d7d7d;
     font-size: 0.8rem;
     margin-top: 4rem;
 }
@@ -133,6 +134,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 2rem;
+    gap: 5rem;
 }
 
 .first-col {
