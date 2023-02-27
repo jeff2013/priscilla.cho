@@ -134,33 +134,33 @@ function HoochyBoochKombucha() {
                             </p>
                         </div>
                         <div className="work-carousel">
-                                <Carousel>
-                                    <Carousel.Item>
-                                        <img
-                                            className="d-block w-100"
-                                            src={HBUT1}
-                                            alt="First slide"
-                                        />
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img
-                                            className="d-block w-100"
-                                            src={HBUT2}
-                                            alt="Second slide"
-                                        />
-                                    </Carousel.Item>
-                                    <Carousel.Item>
-                                        <img
-                                            className="d-block w-100"
-                                            src={HBUT3}
-                                            alt="Third slide"
-                                        />
-                                    </Carousel.Item>
-                                </Carousel>
-                            </div>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={HBUT1}
+                                        alt="First slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={HBUT2}
+                                        alt="Second slide"
+                                    />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={HBUT3}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                            </Carousel>
+                        </div>
                    </div>
                    <div className="work-sub work-row">
-                        <div>
+                        <div className="first-col">
                             <h3 className="work-subheader">discovering key findings</h3>
                             <p className="work-p"> 
                                 We used affinity diagramming to organize all of the meaningful comments provided by our study participants. 
@@ -209,7 +209,7 @@ function HoochyBoochKombucha() {
                    </div>
                    
                    <div className="work-sub  work-row">
-                        <div>
+                        <div className="first-col">
                             <h3 className="work-subheader">main recommendations</h3>
                             <p className="work-p">  
                                 1. By simplifying the navigation bar, we can reduce user's confusion when searching for products or services.  
