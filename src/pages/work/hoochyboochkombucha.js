@@ -63,6 +63,11 @@ function HoochyBoochKombucha() {
                                 Hoochy 'Booch is a Vancouver-based company that produces and sells kombucha beverages and also, 
                                 offers services such as subscriptions, home delivery, and growler refill programs. 
                             </p>
+                            <h4 className="work-subheader four">my role</h4>
+                            <p className="work-p more">
+                                I conducted user research using methods such as heuristic evaluation and usability testing to identify issues with the user experience on Hoochy 'Booch's e-commerce site. 
+                                Based on my findings, I created suggestions on recommendations and completed prototype iterations to improve the browsing and purchasing journey for existing and potential customers.
+                            </p>
                         </div>
                         <div className="div-img">   
                             <img className="bus-goal" src={HB1} alt="Redesign of Hoochy 'Booch's home page"/>
@@ -78,7 +83,6 @@ function HoochyBoochKombucha() {
                             </p>
                             <h4 className="work-subheader four">framing question</h4>
                             <p className="work-p more">
-                                By developing a question that would help align our focus and exploration. 
                                 By having a clear and well-defined question, the team could work more effectively and efficiently in 
                                 addressing the problem at hand. This approach helped to streamline the research process and 
                                 improve the overall quality of our findings.
@@ -97,18 +101,14 @@ function HoochyBoochKombucha() {
                         <div className="first-col">   
                             <h3 className="work-subheader">approach + process</h3>
                             <p className="work-p"> 
-                                The team choose 2 research methods, Heuristic Evaluation and Usability Testing. Heuristic Evaluation helped to identify any surface-level usability 
+                                Two research methods: Heuristic Evaluation and Usability Testing. Heuristic Evaluation helped to identify any surface-level  
                                 issues on the website. Usability Testing was conducted to discover and 
                                 understand any underlying pain points experienced by both exisiting and potential users.
                             </p>
                             <h4 className="work-subheader four">heuristic evaluation</h4>
                             <p className="work-p"> 
                                 Following the guidelines of  <a className="work-link" href="https://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen Norman Group's</a> principles to interaction design, 
-                                we gathered after to share our findings and assign severity ratings to the issues.
-                            </p>
-                            <p className="work-p p-space"> 
-                                Some of my main findings included: 
-
+                                here are some of my main findings:
                             </p>
                             <p className="work-p p-space"> 
                                 1. Product and hero images provided feedback on hover to users, but were not clickable. 
