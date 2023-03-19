@@ -1,10 +1,15 @@
 import "./home.css";
 import { Outlet, Link } from "react-router-dom";
+import { useEffect } from "react";
 import thePantry from '../img/The-Pantry.png';
 import HoochyBooch from '../img/Hoochy-Booch.png';
 import KMRS from '../img/Kalmont-Mountain.png';
 
 function Home() {
+    useEffect(() => {
+        document.title = "Priscilla Cho";
+    }, [])
+
     return (
         <div className="home">
             <div className="me-intro">

@@ -1,5 +1,6 @@
 import "../home/home.css";
 import "../work/work.css";
+import { useEffect } from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import HBBanner from '../img/HB-1512.png';
 import HB12 from '../img/HB-12.png';
@@ -17,6 +18,10 @@ import HBUT2 from '../img/HB-UT-2.png';
 import HBUT3 from '../img/HB-UT-3.png';
 
 function HoochyBoochKombucha() {
+    useEffect(() => {
+        document.title = "Priscilla Cho - Hoochy 'Booch Kombucha";
+    }, [])
+
     return (
         <div className="work-home">
             <img className="hero-img" src={HBBanner} alt="Hoochy 'Booch Kombucha"/>
@@ -47,10 +52,10 @@ function HoochyBoochKombucha() {
                         </div>
                         <div className="collaborators">
                             <p className="work-cc-title">Collaborators</p>
-                            <p className="work-cc-content">Anna Chi</p>
-                            <p className="work-cc-content">Chris Chan</p>
-                            <p className="work-cc-content">Gracie Gu</p>
-                            <p className="work-cc-content">Julia Nguyen</p>
+                            <p className="work-cc-content">Anna C.</p>
+                            <p className="work-cc-content">Chris C.</p>
+                            <p className="work-cc-content">Gracie G.</p>
+                            <p className="work-cc-content">Julia N.</p>
                         </div>
                     </div>
                 </div>

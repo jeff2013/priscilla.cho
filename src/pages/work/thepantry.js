@@ -1,8 +1,13 @@
 import "../home/home.css";
 import "../work/work.css";
 import TPBanner from '../img/TP-1512.png';
+import { useEffect } from "react";
 
 function ThePantry() {
+    useEffect(() => {
+        document.title = "Priscilla Cho - The Pantry";
+    }, [])
+
     return (
         <div className="work-home">
             <img className="hero-img" src={TPBanner} alt="The Pantry"/>
@@ -35,8 +40,8 @@ function ThePantry() {
                         </div>
                         <div className="collaborators">
                             <p className="work-cc-title">Collaborators</p>
-                            <p className="work-cc-content">Bill Gao</p>
-                            <p className="work-cc-content">Raavi Vick</p>
+                            <p className="work-cc-content">Bill G.</p>
+                            <p className="work-cc-content">Raavi V.</p>
                         </div>
                     </div>
                 </div>

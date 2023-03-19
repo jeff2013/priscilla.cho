@@ -1,8 +1,13 @@
 import "../home/home.css";
 import "../work/work.css";
 import KMBanner from '../img/KM-1512.png';
+import { useEffect } from "react";
 
 function KalmontMountainResureAndSafety() {
+    useEffect(() => {
+        document.title = "Priscilla Cho - Kalmont Mountain";
+    }, [])
+
     return (
         <div className="work-home">
             <img className="hero-img" src={KMBanner} alt="The Pantry"/>
@@ -35,8 +40,8 @@ function KalmontMountainResureAndSafety() {
                         </div>
                         <div className="collaborators">
                             <p className="work-cc-title">Collaborators</p>
-                            <p className="work-cc-content">Bill Gao</p>
-                            <p className="work-cc-content">Jarrod Pan</p>
+                            <p className="work-cc-content">Bill G.</p>
+                            <p className="work-cc-content">Jarrod P.</p>
                         </div>
                     </div>
                 </div>
