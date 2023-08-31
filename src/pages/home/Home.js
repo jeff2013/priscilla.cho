@@ -86,7 +86,7 @@ function Home() {
                     <a className="thumbnail" href="/kalmontmountain">
                         <div className="project">
                             <h2 className="project-name">Kalmont Mountain Rescue + Safety Team</h2>
-                            <h2 className="project-name category"> — Interface Design & Web Development</h2>
+                            <h2 className="project-name category"> — Interface Design</h2>
                         </div>
                         <p className="project-description">
                             An academic project for a fabricated client to develop 

@@ -26,7 +26,17 @@ function HoochyBoochKombucha() {
         <div className="home">
             <div className="grid">
                 <div className="col-1">
-                    <h1 className="side-header">Introduction</h1>
+                    
+                </div>
+                <div className="col-2">
+                    <h1 className="title">Hoochy 'Booch Kombucha</h1>
+                    <h2 className="project-info">09.2022 - 12.2022</h2>
+                    <p className="project-info">Academic Research Study</p>
+                </div>
+            </div>
+            <div className="grid">
+                <div className="col-1">
+                    <h2 className="side-header">Introduction</h2>
                 </div>
 
                 <div className="col-2">
@@ -44,7 +54,7 @@ function HoochyBoochKombucha() {
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part One</h2>
-                    <p>Approach and Process</p>
+                    <p className="sub-header">Approach and Process</p>
                 </div>
 
                 <div className="col-2">
@@ -55,22 +65,17 @@ function HoochyBoochKombucha() {
                     </p>
                 
                     <p className="project-p">
-                       Based on my Heuristic Evaluation findings, I created recommendationa to enhance user experience by making product and hero images clickable or removing hover feedback if no action is taken, and relying on the existing button for navigation. 
-                       Furthermore, to simplify user interaction and reduce cognitive load, it's advised to consolidate all products, including cans, growlers, and the starter kit, under a single "Shop" tab instead of the current multi-step process. 
-                       This adjustment would enable users to effortlessly access and explore different product sets without the need for excessive navigation.
+                       Based on my Heuristic Evaluation findings, I created recommendations to enhance user experience by making product images clickable, 
+                       removing hover feedback on hero image since there's no clickable feature, and streamlining the site's navigation. 
+                       Furthermore, to simplify user interaction and reduce cognitive load, it's advised to consolidate all products, including cans, growlers, 
+                       and the starter kit, under a single "Shop" tab instead of the current multi-step process. 
                     </p>
 
                     <p className="project-p">
-                    We gain valuable insights into the needs and behaviors of both existing and potential customers. 
-                                By performing scenario-based tasks and conducting pre- and post-interview questionnaires, we identified key pain points and areas for improvement in 
-                                the products and services. These insights enabled us to create more meaningful experiences for users and better meet users' needs.
-                    </p>
-                    <p className="project-p">
-                    Our study was designed with both validity and reliability in mind. We recruited appropriate target users and provided them with realistic tasks. 
-                                This allowed us to collect rich, thick descriptions of data and observations that were representative of the true user experience.
-
-                                To ensure consistency and reliability, all participants completed the same tasks and questionnaires, and all interviewers followed the same test protocols. 
-                                We also took great care to analyze the data using established methods and techniques, which allowed us to draw meaningful and accurate conclusions from our findings.
+                        During initial research my teammates and I interviewed 10 individuals, 6 current customers and 4 potential customers. 
+                        Through the utilization of scenario-driven activities and a comprehensive analysis of both pre- and post-interview surveys, 
+                        I successfully refined our interview approach. This adaptation enabled us to 
+                        uncover latent pain points and identify areas where enhancements could be made to our product and services page.
                     </p>
                 </div>
             </div>
@@ -79,13 +84,13 @@ function HoochyBoochKombucha() {
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part Two</h2>
-                    <p>Discovering Key Findings</p>
+                    <p className="sub-header">Discovering Key Findings</p>
                 </div>
 
                 <div>
                     <p className="project-p"> 
-                        We used affinity diagramming to organize all of the meaningful comments provided by our study participants. 
-                        By creating relationships between issues, the process helped us better understnad key pain points and areas for improvement.
+                        // We used affinity diagramming to organize all of the meaningful comments provided by our study participants. 
+                        By creating relationships between issues, the process helped us better understand key pain points and areas for improvement.
                     </p>
                     <p className="project-p">
                         Once we had identified the issues, we then grouped them based on their occurrence on the site. 
@@ -94,11 +99,11 @@ function HoochyBoochKombucha() {
                         insights that will guide our product development efforts moving forward.
                     </p>
 
-                    <h4 className="s">lack of clarity</h4>
+                    <p>lack of clarity</p>
                     <p className="project-p"> 
                         Insufficient information regarding product and service, causing obstacles for users during the browsing and buying process.
                     </p>
-                    <h4 className="work-subheader four sub-four">lack of efficiency</h4>
+                    <p>lack of efficiency</p>
                     <p className="project-p"> 
                         Lack of clarity with interactable elements on the site, leading to user confusion and loss of trust.
                     </p>
@@ -109,7 +114,7 @@ function HoochyBoochKombucha() {
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part Three</h2>
-                    <p>Main Recommendations</p>
+                    <p className="sub-header">Main Recommendations</p>
                 </div>
                 <div className="col-2">
                     <p className="project-p">  
@@ -147,8 +152,6 @@ function HoochyBoochKombucha() {
                 </div>
                 
             </div>
-            <p> learning takeways, wanted to conduct a round 2 usability testing, however due to time constricts of the academic course and participants availability.</p>
-            
         </div>
     )
 }

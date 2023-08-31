@@ -1,7 +1,7 @@
 import './about.css';
 import '../home/home.css';
 import { useEffect } from "react";
-import aboutimg from '../img/priscilla-1.jpg';
+import aboutimg from '../img/about-me.png';
 
 function About() {
     useEffect(() => {
@@ -55,6 +55,15 @@ function About() {
                     <p className="about-p">
                         Drinking overly sweet coffees, watching animal documentaries (especially the ones about penguins) + reading.
                     </p>
+                </div>
+            </div>
+
+            <div className='grid space'>
+                <div className='col-1'>
+                  
+                </div>
+                <div className='col-2'>
+                    <img className="about-img" src={aboutimg} alt="Priscilla Cho"/>
                 </div>
             </div>
         </div>

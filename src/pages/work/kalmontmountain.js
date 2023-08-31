@@ -12,6 +12,16 @@ function KalmontMountainResureAndSafety() {
         <div className="home">
             <div className="grid">
                 <div className="col-1">
+                </div>
+                <div className="col-2">
+                    <h1 className="title">Kalmont Mountain Rescue + Safety</h1>
+                    <h2 className="project-info">01.2020 - 04.2020</h2>
+                    <p className="project-info">Academic Design Project</p>
+                </div>
+            </div>
+
+            <div className="grid">
+                <div className="col-1">
                     <h1 className="side-header">Introduction</h1>
                 </div>
                 <div className="col-2">

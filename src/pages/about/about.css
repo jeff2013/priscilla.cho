@@ -6,6 +6,7 @@
 .about-p {
     font-size: 14px;
     width: 400px;
+    color: #323232;
 }
 
 .contact-info {
@@ -30,4 +31,7 @@
     transition: ease-in-out;
 }
 
+.about-img {
+    width: 400px;
+}
 

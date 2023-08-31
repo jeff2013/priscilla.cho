@@ -28,6 +28,10 @@ li {
   font-size: 0.7rem;
 }
 
+p {
+  color: #323233;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
