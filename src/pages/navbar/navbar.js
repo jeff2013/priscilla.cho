@@ -7,7 +7,7 @@ import logoHover from '../img/pc-logo-blue.png';
 const Navbar = () => {
   return (
     <>
-      <nav>
+      <nav className='sticky'>
         <ul className="nav-bar">
           <li className="nav-li">
             <div className='cardlogo'>
@@ -19,13 +19,10 @@ const Navbar = () => {
           </li>
           <div className='nav-gap'>
             <li className="nav-li">
-              <Link className="nav-link highlight" to="/hoochyboochkombucha">RECENT WORK</Link>
-            </li>
-            <li className="nav-li">
               <Link className="nav-link highlight" to="/about">ABOUT</Link>
             </li>
             <li className="nav-li">
-              <a className="nav-link highlight" href="https://drive.google.com/file/d/1KJHWejpTliuZ-jPi47t_y25JvBtcH2OT/view?usp=share_link">RESUME</a>
+              <a className="nav-link highlight" href="https://drive.google.com/file/d/1at6E9bE8rsMBywUN3YLSxEikkApsqPqC/view?usp=share_link">RESUME</a>
             </li>
           </div>
         </ul>

@@ -4,27 +4,34 @@ import { Outlet, Link } from "react-router-dom";
 const Footer = () => {
     return (
         <div className="footer">
-            <ul className="footer-ul">
-                <div className='flex-gap'>
+            <div className='grid-1'>
+                <div className='footer-col-1'>
+                    <p className='footer-p'>Let's Connect</p>
+                    <a className="footer-link highlight" href="mailto:pjcho@sfu.ca">pjcho@sfu.ca</a>
+                </div>
+
+                <div className='footer-col-2'>
+                    <p className='footer-p'>Here's my resume :)</p>
+                    <a className="footer-link highlight" href="https://drive.google.com/file/d/1at6E9bE8rsMBywUN3YLSxEikkApsqPqC/view?usp=share_link">Resume</a>
+                </div>
+
+                <div className='footer-col-3'>
                     <div>
-                        <p className='footer-p'>Let's Connect</p>
-                        <li className="footer-li">
-                            <a className="footer-link highlight" href="mailto:priscilla_cho@hotmail.com">priscilla_cho@hotmail.com</a>
-                        </li>
-                    </div>
-                    <div className='footer-col-two'>
-                        <div>
-                            <p className='footer-p'>Here's my resume :)</p>
-                            <li className="footer-li">
-                                <a className="footer-link highlight" href="https://drive.google.com/file/d/1KJHWejpTliuZ-jPi47t_y25JvBtcH2OT/view?usp=share_link">Resume</a>
-                            </li>
+                        <p className='footer-p'>Digital Social Spheres</p>
+                        <div className='grid-2'>
+                            <a className="footer-link highlight" href="https://www.linkedin.com/in/priscilla-cho-039442205/">LinkedIn</a>
+                            <p className='footer-p-2'>/</p>
+                            <a className="footer-link highlight" href="https://www.instagram.com/designingwithp">Instagram</a>
                         </div>
                     </div>
+                    <div className='left-align'>
+                        <p className='footer-p'>Where I’m located</p>
+                        <p className='footer-link'>Vancouver, Canada</p>
+                    </div>
                 </div>
-                <li className="footer-li">
-                    <a className="footer-link highlight" href="https://www.linkedin.com/in/priscilla-cho-039442205/">LinkedIn</a>
-                </li>
-            </ul>
+
+
+            </div>
         </div>
     )
 };

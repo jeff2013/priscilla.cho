@@ -1,11 +1,11 @@
 import "../home/home.css";
 import "../work/work.css";
-import KMBanner from '../img/KM-1512.png';
+import FJBanner from '../img/FJ-1512.png';
 import { useEffect } from "react";
 
-function KalmontMountainResureAndSafety() {
+function ThePantry() {
     useEffect(() => {
-        document.title = "Priscilla Cho - Kalmont Mountain";
+        document.title = "Priscilla Cho - Festival Jazzdor";
     }, [])
 
     return (
@@ -22,7 +22,7 @@ function KalmontMountainResureAndSafety() {
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part One</h2>
-                    <p>Brainstorming + Wireframing</p>
+                    <p>Graphical Experimentation</p>
                 </div>
                 <div className="col-2">
                     <p className="project-p">coming soon!</p>
@@ -32,26 +32,7 @@ function KalmontMountainResureAndSafety() {
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part Two</h2>
-                    <p>Brand Identity</p>
-                </div>
-                <div className="col-2">
-                    <p className="project-p">coming soon!</p>
-                </div>
-            </div>
-
-            <div className="grid">
-                <div className="col-1">
-                    <h2 className="side-header">Part Three</h2>
-                    <p>Web Development</p>
-                </div>
-                <div className="col-2">
-                    <p className="project-p">coming soon!</p>
-                </div>
-            </div>
-
-            <div className="grid">
-                <div className="col-1">
-                    <h2 className="side-header">Reflection</h2>
+                    <p>Mircosite + Interaction Experimentation</p>
                 </div>
                 <div className="col-2">
                     <p className="project-p">coming soon!</p>
@@ -61,4 +42,4 @@ function KalmontMountainResureAndSafety() {
     )
 }
 
-export default KalmontMountainResureAndSafety; 
+export default ThePantry; 
