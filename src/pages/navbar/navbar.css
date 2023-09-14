@@ -51,13 +51,11 @@
 }
 
 .highlight:hover{
-    font-style: italic;
     color: #779FEC;
     transition: ease-in-out;
 }
 
-.highlight:active {
-    font-style: italic;
+.highlight:active { 
     color:  #779FEC;
     transition: ease-in-out;
 }

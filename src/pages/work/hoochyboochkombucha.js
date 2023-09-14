@@ -41,12 +41,16 @@ function HoochyBoochKombucha() {
 
                 <div className="col-2">
                     <p className="project-p">
-                        Hoochy 'Booch is a local small business based in Vancouver B.C. that produces and 
-                        sells kombucha beverages. Hoochy 'Booch also provides other services such as subscriptions, home delivery, and growler refill programs.
+                        Hoochy 'Booch is a local small business based in Vancouver B.C. 
+                        that produces and sells kombucha beverages. Hoochy 'Booch 
+                        also provides other services such as subscriptions, 
+                        home delivery, and growler refill programs.
                     </p>
                     <p className="project-p">
-                        Along my four classmates, I conducted user research, which prompted the intervention of Hoochy 'Booch's e-commerce site redesign. 
-                        Based on my findings, I created data-based recommendations to improve the browsing and purchasing journey for existing and potential customers.
+                        Along my four classmates, I conducted initial research, 
+                        which prompted the intervention of Hoochy 'Booch's e-commerce site redesign. 
+                        Based on my findings, I created data-based recommendations to improve 
+                        the browsing and purchasing journey for existing and potential customers.
                     </p>
                 </div>
             </div>
@@ -59,23 +63,33 @@ function HoochyBoochKombucha() {
 
                 <div className="col-2">
                     <p className="project-p">
-                        We decided to use Heuristic Evaluation and Usability Testing. Heuristic Evaluation helped to identify any surface-level  
-                        issues on the website, since each group member has exceptional knowledge of usability. Usability Testing was conducted to discover and 
-                        understand any underlying pain points experienced by both exisiting and potential users.
+                        We opted to use Heuristic Evaluation and Usability Testing. 
+                        Heuristic Evaluation helped to identify any surface-level  
+                        issues on the website, since each group member has exceptional 
+                        knowledge of usability. Usability Testing was conducted to discover and 
+                        understand any underlying pain points experienced by both exisiting and 
+                        potential users.
                     </p>
                 
                     <p className="project-p">
-                       Based on my Heuristic Evaluation findings, I created recommendations to enhance user experience by making product images clickable, 
-                       removing hover feedback on hero image since there's no clickable feature, and streamlining the site's navigation. 
-                       Furthermore, to simplify user interaction and reduce cognitive load, it's advised to consolidate all products, including cans, growlers, 
-                       and the starter kit, under a single "Shop" tab instead of the current multi-step process. 
+                       Based on my Heuristic Evaluation findings, I created recommendations 
+                       to enhance user experience by making product images clickable, 
+                       removing hover feedback on hero image since there's no clickable 
+                       feature, and streamlining the site's navigation. 
+                       Furthermore, to simplify user interaction and reduce cognitive load, 
+                       it's advised to streamline all products, including cans, growlers, 
+                       and the starter kit, under a single "Shop" tab instead of the current 
+                       multi-step process. 
                     </p>
 
                     <p className="project-p">
-                        During initial research my teammates and I interviewed 10 individuals, 6 current customers and 4 potential customers. 
-                        Through the utilization of scenario-driven activities and a comprehensive analysis of both pre- and post-interview surveys, 
-                        I successfully refined our interview approach. This adaptation enabled us to 
-                        uncover latent pain points and identify areas where enhancements could be made to our product and services page.
+                        In our initial research, my team and I interviewed 
+                        a total of 10 individuals—6 current customers and 4 
+                        potential customers. By employing scenario-driven activities 
+                        and thoroughly analyzing pre- and post-interview surveys, 
+                        I streamlined our interview approach. This adjustment allowed 
+                        us to pinpoint pain points and pinpoint areas for improvement 
+                        on the product and services page.
                     </p>
                 </div>
             </div>
@@ -89,23 +103,27 @@ function HoochyBoochKombucha() {
 
                 <div>
                     <p className="project-p"> 
-                        // We used affinity diagramming to organize all of the meaningful comments provided by our study participants. 
-                        By creating relationships between issues, the process helped us better understand key pain points and areas for improvement.
+                        Affinity diagramming efficiently organized participant feedback. 
+                        This process clarified relationships between issues, 
+                        leading myself to a better understanding of key pain 
+                        points and areas for improvement.
                     </p>
                     <p className="project-p">
-                        Once we had identified the issues, we then grouped them based on their occurrence on the site. 
-                        This allowed us to gain a better understanding of the most critical issues and prioritize our efforts accordingly. 
-                        By leveraging this approach, we were able to gain a more comprehensive understanding of the user experience and develop actionable 
-                        insights that will guide our product development efforts moving forward.
+                        Through Affinity diagramming, I effectively categorized 
+                        issues based on research, gaining a clearer understanding 
+                        of the most critical ones. This enabled me to allocate my 
+                        time and effort more efficiently when brainstorming for recommendations.
                     </p>
 
                     <p>lack of clarity</p>
                     <p className="project-p"> 
-                        Insufficient information regarding product and service, causing obstacles for users during the browsing and buying process.
+                        Insufficient information regarding product and service, 
+                        causing obstacles for users during the browsing and buying process.
                     </p>
                     <p>lack of efficiency</p>
                     <p className="project-p"> 
-                        Lack of clarity with interactable elements on the site, leading to user confusion and loss of trust.
+                        Lack of clarity with interactable elements on the site, 
+                        leading to user confusion and loss of trust.
                     </p>
                 </div>
             </div>
@@ -118,19 +136,28 @@ function HoochyBoochKombucha() {
                 </div>
                 <div className="col-2">
                     <p className="project-p">  
-                        1. By simplifying the navigation bar, we can reduce user's confusion when searching for products or services.  
+                        1. By simplifying the navigation bar, we can reduce user's 
+                        confusion when searching for products or services.  
                     </p> 
                     <p className="project-p"> 
-                        2. Instead of have product listings speard out on multiple different subpages where users are needed to navigate back and forth between.
-                        Streamlining all products under "Shop" tab can reduce user's cognitive load when browsering for products on the site. 
+                        2. Instead of have product listings speard out on multiple 
+                        different subpages where users are needed to navigate back and forth between.
+                        Streamlining all products under "Shop" tab can reduce user's 
+                        cognitive load when browsering for products on the site. 
                     </p> 
                     <p className="project-p"> 
-                        3. Reworking the product pages by improving the product and service copywriting, allows clear communicate to users when looking for 
-                        important information such as product ordering, flavour tones and delivery schedule. Product listing image was also changed to reflect the product itself. 
-                        The addition of subscription discount was added to notify users without demanding cognitive load to perform mental math.  
+                        3. Reworking the product pages by improving the product and 
+                        service copywriting, allows clear communicate to users when looking for 
+                        important information such as product ordering, flavour tones and 
+                        delivery schedule. Product listing image was also changed to reflect the product itself. 
+                        The addition of subscription discount was added to notify users without 
+                        demanding cognitive load to perform mental math.  
                     </p> 
                     <p className="project-p"> 
-                        4. Elements are repsonsive to user's clicking, which can reduce confusions, also "quantity" section is changed from keyboard input to buttons to create a smoother experience compared to manually entering information.
+                        4. Elements are repsonsive to user's clicking, 
+                        which can reduce confusions, also "quantity" section is 
+                        changed from keyboard input to buttons to create a smoother 
+                        experience compared to manually entering information.
                         Finally the main call-to-action button is filled to be more prominent on the page. 
                     </p> 
                 </div>
@@ -142,11 +169,13 @@ function HoochyBoochKombucha() {
                 </div>
                 <div className="col-2">
                     <p className="project-p"> 
-                        I have developed strong communication skills by collaborating with business stakeholders and 
-                        effectively explaining design concepts and terminology in a way that is meaningful to them. 
-                        I have gained extensive experience working with brand guidelines and designing within their 
-                        established art direction. This has allowed me to develop a deep understanding of the importance 
-                        of maintaining brand consistency while also incorporating design best practices and creating engaging 
+                        I have developed strong communication skills by collaborating with business 
+                        stakeholders and effectively explaining design concepts and 
+                        terminology in a way that is meaningful to them. I have gained extensive 
+                        experience working with brand guidelines and designing within their 
+                        established art direction. This has allowed me to develop a 
+                        deep understanding of the importance of maintaining brand consistency 
+                        while also incorporating design best practices and creating engaging 
                         user experiences.
                     </p> 
                 </div>

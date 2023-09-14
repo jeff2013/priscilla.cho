@@ -20,13 +20,11 @@
 }
 
 .contact-link:hover{
-    font-style: italic;
     color: #779FEC;
     transition: ease-in-out;
 }
 
 .contact-link:active {
-    font-style: italic;
     color:  #779FEC;
     transition: ease-in-out;
 }
