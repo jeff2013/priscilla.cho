@@ -55,7 +55,7 @@ code {
   display: flex;
   flex-direction: column;
   column-gap: 15px;
-  width: 266px;
+  width: 256px;
 }
 .col-2 {
   width: 1000px;

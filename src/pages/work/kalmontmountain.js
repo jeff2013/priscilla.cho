@@ -1,6 +1,5 @@
 import "../home/home.css";
 import "../work/work.css";
-import KMBanner from '../img/KM-1512.png';
 import { useEffect } from "react";
 
 function KalmontMountainResureAndSafety() {

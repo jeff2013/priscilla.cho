@@ -25,7 +25,16 @@ function ThePantry() {
                     <h2 className="side-header">Introduction</h2>
                 </div>
                 <div className="col-2">
-                    <p className="project-p">coming soon!</p>
+                    <p className="project-p">
+                        Jazzdor is a music festival that showcases 
+                        emerging musicians with innovative projects. 
+                        The mission is to challenge prevailing misconceptions surrounding jazz 
+                        and its contemporary iterations. Through these efforts, 
+                        Jazzdor aims to broaden and invigorate its audience base.
+                    </p>
+                    <p className="project-p">
+                        
+                    </p>
                 </div>
             </div>
 

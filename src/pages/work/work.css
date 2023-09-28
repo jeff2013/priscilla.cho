@@ -19,3 +19,47 @@
     font-size: 14px;
     color: #323232;
 }
+
+.image-display {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    column-gap: 20px;
+}
+
+.work-img {
+    width: 1008px;
+}
+
+.caption-p {
+    font-size: 11px;
+    color: #999999;
+    width: 200px;
+    margin: 0;
+}
+
+.next-project {
+    padding: 0;
+}
+
+.next-project-title{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    color: #999999;
+}
+
+.next-project-link{
+    text-decoration: none;
+    color: #323232;
+}
+
+.next-project-link:hover{
+    color: #779FEC;
+    transition: ease-in-out;
+}
+
+.next-project-link:active { 
+    color:  #779FEC;
+    transition: ease-in-out;
+}
