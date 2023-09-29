@@ -4,6 +4,12 @@ import { useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import HBAF1 from '../img/HB-AF1.png';
+import HBMR1 from '../img/HB-MR-1.png';
+import HBMR2 from '../img/HB-MR-4.gif';
+import HBMR3 from '../img/HB-MR-2.gif';
+import HB1 from '../img/HB-1.png';
+
+
 
 
 function HoochyBoochKombucha() {
@@ -42,8 +48,14 @@ function HoochyBoochKombucha() {
                         the browsing and purchasing journey for existing and potential customers.
                     </p>
 
-                    <img>
-                    </img>
+                    <div className="image-display">
+                        <img className="work-img" src={HB1} alt="Redesign home page of Hoochy 'Booch Kombucha"/>
+                        <div>
+                            <p className="caption-p">
+                                Home page redesign for Hoochy 'Booch Kombucha's site. 
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -163,6 +175,26 @@ function HoochyBoochKombucha() {
                         pages to prevent additional confusion in the user's 
                         browsing experience.
                     </p>
+                    <div className="image-display">
+                        <div>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img className="work-img" src={HBMR3} alt="Enabling click functionality for all product images and elimiating hover feedback on non-clickable images"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="work-img" src={HBMR1} alt="Redesign of navigation bar"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="work-img" src={HBMR2} alt="Centralize products under one tab called 'Shop'"/>
+                                </Carousel.Item>
+                            </Carousel>
+                        </div>
+                        <div>
+                            <p className="caption-p">
+                                Main mock up examples for the recommended e-commerce site redesign for Hoochy 'Booch.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
