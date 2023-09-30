@@ -23,9 +23,9 @@ function About() {
             <div className='grid space'>
                 <div className='col-1'>
                     <h2 className='side-header'>Here's a little bit about myself</h2>
-                    <p className="sub-header">I'm a designer + student</p>
                 </div>
                 <div className='col-2'>
+                    <p className="sub-header">I'm a designer + student</p>
                     <p className='about-p'>
                         My skills as a designer are grounded in visual and 
                         graphic design, but my growing sense of passion for 
@@ -39,9 +39,9 @@ function About() {
 
             <div className='grid space'>
                 <div className='col-1'>
-                    <p className="sub-header">I'm an athlete</p>
                 </div>
                 <div className='col-2'>
+                    <p className="sub-header">I'm an athlete</p>
                     <p className="about-p">
                         Volleyball is more than just a game to me, it's a true passion 
                         that has been a significant part of my life for 12 years. 
@@ -61,7 +61,7 @@ function About() {
                 </div>
                 <div className='col-2'>
                     <p className="about-p">
-                        Drinking overly sweet coffees, watching animal documentaries (especially the ones about penguins and sharks) and reading.
+                        Drinking overly sweet coffees, watching animal documentaries (especially the ones about penguins and polar bears) and reading.
                     </p>
                 </div>
             </div>

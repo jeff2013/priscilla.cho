@@ -220,7 +220,6 @@ function HoochyBoochKombucha() {
                 
                 <div className="col-2">
                     <Link className="next-project-link" to="/thepantry">Next Project: <span> </span> The Pantry &rarr;</Link>
-
                 </div>
             </div>
         </div>

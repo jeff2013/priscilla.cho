@@ -6,7 +6,8 @@ import KMB1 from '../img/KM-B1.1.png';
 import KMB2 from '../img/KM-B1.2.png';
 import KMB3 from '../img/KM-B1.3.png';
 import KMB4 from '../img/KM-B2.1.png';
-import KMB5 from '../img/KM-B2.1.png';
+import KMB5 from '../img/KM-B2.2.png';
+import KMHP from '../img/KM-HP.png';
 
 function KalmontMountainResureAndSafety() {
     useEffect(() => {
@@ -31,14 +32,11 @@ function KalmontMountainResureAndSafety() {
                 </div>
                 <div className="col-2">
                     <p className="project-p">
-                        Welcome to Kalmont Mountain! Kalmont 
-                        Mountain Rescue and Safety Team is a 
-                        voluneer community-based search and rescue 
-                        team providing a life-saving service to the 
-                        public, 24 hours a day, 365 days a year. 
-                        This platform aims to empower travellers with 
-                        essential knowledge and resources for their 
-                        journey on the mountain.
+                        The Kalmont Mountain Rescue and Safety 
+                        Team is a volunteer-driven, community-based 
+                        search and rescue organization dedicated to 
+                        delivering life-saving services to the public 
+                        24/7, year-round.
                     </p>
                     <p className="project-p">
                         In the Kalmont Mountain project, I played a 
@@ -48,6 +46,12 @@ function KalmontMountainResureAndSafety() {
                         in crafting an intuitive, visually appealing interface 
                         to entice and educate users.
                     </p>
+                    <div className="image-display">
+                        <img className="work-img" src={KMHP} alt="Offical landing page for Kalmont Mountain Safety + Rescue Team"/>
+                        <p className="caption-p">
+                            Offical landing page for Kalmont Mountain Safety + Rescue Team
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -57,24 +61,33 @@ function KalmontMountainResureAndSafety() {
                     <p>Brainstorming + Wireframing</p>
                 </div>
                 <div className="col-2">
-                    <p className="project-p">coming soon!</p>
+                    <p className="project-p">
+                        The platform aims to empower travellers 
+                        with crucial information, including emergency 
+                        events and updates on mountain conditions, 
+                        as well as essential knowledge and resources 
+                        mainly tailors for winter climates on the mountain.
+                    </p>
+                    <p className="project-p">
+                        
+                    </p>
                     <div className="image-display">
                         <div>
                             <Carousel>
                                 <Carousel.Item>
-                                    <img className="work-img" src={KMB1} alt=""/>
+                                    <img className="work-img" src={KMB1} alt="Landing page wireframe"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="work-img" src={KMB2} alt=""/>
+                                    <img className="work-img" src={KMB2} alt="Landing page and side menu wireframe"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="work-img" src={KMB3} alt=""/>
+                                    <img className="work-img" src={KMB3} alt="Map, About Us and Discover page wireframes"/>
                                 </Carousel.Item>
                             </Carousel>
                         </div>
                         <div>
                             <p className="caption-p">
-                                Caption
+                                Initial brainstorm and development of web and mobile wireframes.
                             </p>
                         </div>
                     </div>
@@ -85,16 +98,16 @@ function KalmontMountainResureAndSafety() {
                         <div>
                             <Carousel>
                                 <Carousel.Item>
-                                    <img className="work-img" src={KMB4} alt=""/>
+                                    <img className="work-img" src={KMB4} alt="Second round web page iterations"/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img className="work-img" src={KMB5} alt=""/>
+                                    <img className="work-img" src={KMB5} alt="More iterations of web pages"/>
                                 </Carousel.Item>
                             </Carousel>
                         </div>
                         <div>
                             <p className="caption-p">
-                                Caption
+                                Additional wireframes for web and mobile displays.
                             </p>
                         </div>
                     </div>
