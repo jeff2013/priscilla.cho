@@ -1,7 +1,7 @@
 import "../home/home.css";
 import "../work/work.css";
-import FJBanner from '../img/FJ-1512.png';
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function ThePantry() {
     useEffect(() => {
@@ -40,7 +40,7 @@ function ThePantry() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part One</h2>
+                    <h2 className="side-header">1.</h2>
                     <p>Graphical Experimentation</p>
                 </div>
                 <div className="col-2">
@@ -50,7 +50,7 @@ function ThePantry() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part Two</h2>
+                    <h2 className="side-header">2.</h2>
                     <p>Mircosite + Interaction Experimentation</p>
                 </div>
                 <div className="col-2">
@@ -64,6 +64,15 @@ function ThePantry() {
                 </div>
                 <div className="col-2">
                     <p className="project-p">coming soon!</p>
+                </div>
+            </div>
+
+            <div className="next-project grid">
+                <div className="col-1">
+                </div>
+                
+                <div className="col-2">
+                    <Link className="next-project-link" to="/hoochyboochkombucha">Next Project: Hoochy 'Booch Kombucha &rarr;</Link>
                 </div>
             </div>
         </div>

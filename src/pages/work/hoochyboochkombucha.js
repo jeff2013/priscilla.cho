@@ -1,7 +1,7 @@
 import "../home/home.css";
 import "../work/work.css";
 import { useEffect } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import HBAF1 from '../img/HB-AF1.png';
 import HBMR1 from '../img/HB-MR-1.png';
@@ -61,7 +61,7 @@ function HoochyBoochKombucha() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part One</h2>
+                    <h2 className="side-header">1.</h2>
                     <p className="sub-header">Approach and Process</p>
                 </div>
 
@@ -100,7 +100,7 @@ function HoochyBoochKombucha() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part Two</h2>
+                    <h2 className="side-header">2.</h2>
                     <p className="sub-header">Discovering Key Findings</p>
                 </div>
 
@@ -142,7 +142,7 @@ function HoochyBoochKombucha() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part Three</h2>
+                    <h2 className="side-header">3.</h2>
                     <p className="sub-header">Main Recommendations</p>
                 </div>
                 <div className="col-2">
@@ -221,7 +221,7 @@ function HoochyBoochKombucha() {
                 </div>
                 
                 <div className="col-2">
-                    <Link className="next-project-link" to="/thepantry">Next Project: <span> </span> The Pantry &rarr;</Link>
+                    <Link className="next-project-link" to="/thepantry">Next Project: The Pantry &rarr;</Link>
                 </div>
             </div>
         </div>

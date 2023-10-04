@@ -1,6 +1,7 @@
 import "../home/home.css";
 import "../work/work.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Carousel from 'react-bootstrap/Carousel';
 import KMB1 from '../img/KM-B1.1.png';
 import KMB2 from '../img/KM-B1.2.png';
@@ -64,7 +65,7 @@ function KalmontMountainResureAndSafety() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part One</h2>
+                    <h2 className="side-header">1.</h2>
                     <p>Brainstorming + Wireframing</p>
                 </div>
                 <div className="col-2">
@@ -178,11 +179,36 @@ function KalmontMountainResureAndSafety() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part Two</h2>
+                    <h2 className="side-header">2.</h2>
                     <p>Brand Identity</p>
                 </div>
                 <div className="col-2">
-                    <p className="project-p">coming soon!</p>
+                    <p className="project-p">
+                        I chose Sofia Pro because of its enhanced 
+                        readability due to its geometric shape, which communicates 
+                        a friendly and contemporary composition. Given that 
+                        the website's primary objective is to inform users 
+                        about recurrent news and updates, selecting a legible 
+                        font which can be displayed in multiple weights was essential.
+                    </p>
+                    <p className="project-p">
+                        The logo was created using Sofia Pro, 
+                        resulting in a straightforward and functional design 
+                        that can be easily recognized and understood 
+                        across multiple platforms and sizes. 
+                    </p>
+                    <p className="project-p">
+                        A purple monochromatic colour palette was selected because 
+                        purple symbolizes qualities of leadership and honour, 
+                        which align with the organization's values and commitment 
+                        to its work. Furthermore, the colour strongly contrasts 
+                        gainst the white background, which creates visual balance. 
+                    </p>
+                    <p className="project-p">
+                        A purple overlay was applied to all images 
+                        to achieve balance and maintain a 
+                        consistent appearance across all pages.
+                    </p>
                     <div className="image-display">
                         <div>
                             <Carousel>
@@ -205,11 +231,19 @@ function KalmontMountainResureAndSafety() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">Part Three</h2>
+                    <h2 className="side-header">3.</h2>
                     <p>Web Development</p>
                 </div>
                 <div className="col-2">
-                    <p className="project-p">coming soon!</p>
+                    <p className="project-p">
+                        In the web development phase, I was responsible 
+                        for structuring the HTML pages and generating CSS files, 
+                        which were then linked to multiple pages. 
+                        This process ultimately culminated in the current 
+                        design displayed on the website. I was also responsible 
+                        for quality control ensuring that all elements adhered 
+                        to the style guide.  
+                    </p>
                 </div>
             </div>
 
@@ -228,9 +262,18 @@ function KalmontMountainResureAndSafety() {
                         components to team members. In retrospect, 
                         if I were to approach this project differently 
                         post-brainstorming, I would allocate more time to 
-                        develop a comprehensive style guide. This step would have 
-                        contributed to a more cohesive and polished appearance for the website.
+                        develop a comprehensive style guide and higher quality image searching. 
+                        This step would have contributed to a more cohesive 
+                        and polished appearance.
                     </p>
+                </div>
+            </div>
+            <div className="next-project grid">
+                <div className="col-1">
+                </div>
+                
+                <div className="col-2">
+                    <Link className="next-project-link" to="/festivaljazzdor">Next Project: Festival Jazzdor &rarr;</Link>
                 </div>
             </div>
         </div>
