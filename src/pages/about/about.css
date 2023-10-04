@@ -19,6 +19,10 @@
     color: black
 }
 
+.sub-header {
+    color: #bcbcbc;
+}
+
 .contact-link:hover{
     color: #779FEC;
     transition: ease-in-out;

@@ -204,13 +204,15 @@ function HoochyBoochKombucha() {
                 </div>
                 <div className="col-2">
                     <p className="project-p"> 
-                        I have developed strong communication skills by collaborating 
-                        with business stakeholders and effectively explaining design concepts 
-                        in a way that is meaningful to them. I have gained extensive experience 
-                        working with brand guidelines and designing within their established 
-                        art direction. This project allowed me to deeply understand the 
-                        importance of maintaining brand consistency while incorporating 
-                        design practices and creating engaging user interfaces.
+                        Engaging in participant research has been an 
+                        enlightening experience. Through varied approaches to 
+                        explore, I have discovered a nuanced understanding 
+                        of their pain points. It has become evident that 
+                        participants may sometimes face difficulty 
+                        articulating their thoughts. However, 
+                        by diligently observing and documenting their 
+                        responses and behavior, I have found that I can 
+                        discover a deeper understanding of their underlying concerns.
                     </p> 
                 </div>
             </div>

@@ -2,7 +2,6 @@ import { BrowserRouter, Link, Route, Router, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './pages/home/home';
 import Navbar from './pages/navbar/navbar';
-import Work from './pages/work/work';
 import About from './pages/about/about';
 import Resume from './pages/resume/resume';
 import FestivalJazzdor from './pages/work/festivaljazzdor';
@@ -17,7 +16,6 @@ function App() {
             <Routes>
                 <Route path="/" element={<Navbar />}>
                     <Route index element={<Home />} />
-                    <Route path="/work" element={<Work />} />
                     <Route path="/festivaljazzdor" element={<FestivalJazzdor />} />
                     <Route path="/kalmontmountain" element={<KalmontMountainResureAndSafety />} />
                     <Route path="/thepantry" element={<ThePantry />} />

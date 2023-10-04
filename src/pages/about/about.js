@@ -22,7 +22,7 @@ function About() {
             </div>
             <div className='grid space'>
                 <div className='col-1'>
-                    <h2 className='side-header'>Here's a little bit about myself</h2>
+                    <h2 className='side-header'>A little bit about myself</h2>
                 </div>
                 <div className='col-2'>
                     <p className="sub-header">I'm a designer + student</p>
