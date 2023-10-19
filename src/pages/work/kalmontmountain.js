@@ -47,7 +47,7 @@ function KalmontMountainResureAndSafety() {
                     </p>
                     <p className="project-p">
                         In the Kalmont Mountain project, I played a 
-                        key role in conceptualizing, designing, and 
+                        role in conceptualizing, designing, and 
                         implementing a comprehensive web and mobile platform. 
                         I developed the art direction and led the team 
                         in crafting an intuitive, visually appealing interface 
@@ -65,7 +65,7 @@ function KalmontMountainResureAndSafety() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">1.</h2>
+                    <h2 className="side-header">Part One</h2>
                     <p>Brainstorming + Wireframing</p>
                 </div>
                 <div className="col-2">
@@ -179,7 +179,7 @@ function KalmontMountainResureAndSafety() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">2.</h2>
+                    <h2 className="side-header">Part Two</h2>
                     <p>Brand Identity</p>
                 </div>
                 <div className="col-2">
@@ -195,14 +195,15 @@ function KalmontMountainResureAndSafety() {
                         The logo was created using Sofia Pro, 
                         resulting in a straightforward and functional design 
                         that can be easily recognized and understood 
-                        across multiple platforms and sizes. 
+                        across multiple platforms. 
                     </p>
                     <p className="project-p">
                         A purple monochromatic colour palette was selected because 
                         purple symbolizes qualities of leadership and honour, 
                         which align with the organization's values and commitment 
-                        to its work. Furthermore, the colour strongly contrasts 
-                        gainst the white background, which creates visual balance. 
+                        to its work. Furthermore, the colour contrasts 
+                        gainst the white background, which creates 
+                        visual balance. 
                     </p>
                     <p className="project-p">
                         A purple overlay was applied to all images 
@@ -231,7 +232,7 @@ function KalmontMountainResureAndSafety() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">3.</h2>
+                    <h2 className="side-header">Part Three</h2>
                     <p>Web Development</p>
                 </div>
                 <div className="col-2">

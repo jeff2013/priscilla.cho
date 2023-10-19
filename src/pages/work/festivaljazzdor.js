@@ -40,7 +40,7 @@ function ThePantry() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">1.</h2>
+                    <h2 className="side-header">Part One</h2>
                     <p>Graphical Experimentation</p>
                 </div>
                 <div className="col-2">
@@ -50,7 +50,7 @@ function ThePantry() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">2.</h2>
+                    <h2 className="side-header">Part Two</h2>
                     <p>Mircosite + Interaction Experimentation</p>
                 </div>
                 <div className="col-2">

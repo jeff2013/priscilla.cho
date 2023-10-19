@@ -18,7 +18,7 @@ function Home() {
                 School of Interactive Arts + Technology.
             </h1> 
 
-            <div className="grid home-grid">
+           {/* <div className="grid home-grid">
                 <div className="col-1">
                     <h1 className="side-header">2023</h1>
                 </div>
@@ -35,8 +35,8 @@ function Home() {
                         </p>
                         <img className="project-img" src={FJ} alt="Festival Jazzdor"/>
                     </a>
-                </div>
-            </div>
+                </div> 
+            </div> */}
 
             <div className="grid home-grid">
                 <div className="col-1">
@@ -59,7 +59,7 @@ function Home() {
 
             </div>
 
-            <div className="grid home-grid">
+            { /* <div className="grid home-grid">
                 <div className="col-1">
                     <h1 className="side-header">2021</h1>
                 </div>
@@ -76,7 +76,7 @@ function Home() {
                         <img className="project-img" src={thePantry} alt="The Pantry"/>
                     </a>
                 </div>
-            </div>
+            </div> */}
 
             <div className="grid home-grid">
                 <div className="col-1">

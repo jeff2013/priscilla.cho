@@ -61,7 +61,7 @@ function HoochyBoochKombucha() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">1.</h2>
+                    <h2 className="side-header">Part One</h2>
                     <p className="sub-header">Approach and Process</p>
                 </div>
 
@@ -100,7 +100,7 @@ function HoochyBoochKombucha() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">2.</h2>
+                    <h2 className="side-header">Part Two</h2>
                     <p className="sub-header">Discovering Key Findings</p>
                 </div>
 
@@ -142,7 +142,7 @@ function HoochyBoochKombucha() {
 
             <div className="grid">
                 <div className="col-1">
-                    <h2 className="side-header">3.</h2>
+                    <h2 className="side-header">Part Three</h2>
                     <p className="sub-header">Main Recommendations</p>
                 </div>
                 <div className="col-2">

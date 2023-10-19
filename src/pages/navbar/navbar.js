@@ -22,7 +22,7 @@ const Navbar = () => {
               <Link className="nav-link highlight" to="/about">ABOUT</Link>
             </li>
             <li className="nav-li">
-              <a className="nav-link highlight" href="https://drive.google.com/file/d/1KzVPuOXZ_rjVuBywFf9sS89F-oPAHzMa/view?usp=sharing">RESUME</a>
+              <a className="nav-link highlight" href="https://acrobat.adobe.com/id/urn:aaid:sc:US:a01d4d19-fb25-45a3-b8dc-f5746e4be2ed">RESUME</a>
             </li>
           </div>
         </ul>

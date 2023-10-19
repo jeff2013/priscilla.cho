@@ -12,7 +12,7 @@ const Footer = () => {
 
                 <div className='footer-col-2'>
                     <p className='footer-p'>Here's my resume :)</p>
-                    <a className="footer-link highlight" href="https://drive.google.com/file/d/1KzVPuOXZ_rjVuBywFf9sS89F-oPAHzMa/view?usp=sharing">Resume</a>
+                    <a className="footer-link highlight" href="https://acrobat.adobe.com/id/urn:aaid:sc:US:a01d4d19-fb25-45a3-b8dc-f5746e4be2ed">Resume</a>
                 </div>
 
                 <div className='footer-col-3'>
