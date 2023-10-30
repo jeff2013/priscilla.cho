@@ -9,6 +9,7 @@ import FJ from '../img/fj.png';
 function Home() {
     useEffect(() => {
         document.title = "Priscilla Cho";
+        window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -36,7 +37,7 @@ function Home() {
                         <img className="project-img" src={FJ} alt="Festival Jazzdor"/>
                     </a>
                 </div> 
-            </div> */}
+            </div>*/}
 
             <div className="grid home-grid">
                 <div className="col-1">
@@ -47,11 +48,11 @@ function Home() {
                     <a className="thumbnail" href="/hoochyboochkombucha"> 
                         <div className="project">
                                 <h2 className="project-name">Hoochy 'Booch Kombucha</h2>
-                                <h2 className="project-name category"> — User Research</h2>
+                                <h2 className="project-name category"> — User Experience Research</h2>
                         </div>
                         <p className="project-description">
-                            A research project evaluating Hoochy ‘Booch’s website in order 
-                            decrease friction within users’ buying experience. 
+                            A research project evaluating Hoochy ‘Booch’s website to 
+                            decrease friction within users’ buying experience.
                         </p>
                         <img className="project-img" src={HoochyBooch} alt="Hoochy 'Booch Kombucha"/>
                     </a>

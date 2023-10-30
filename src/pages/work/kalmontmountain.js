@@ -13,12 +13,16 @@ import KMWF1 from '../img/KM-WF1.png';
 import KMWF2 from '../img/KM-WF2.png';
 import KMWF3 from '../img/KM-WF3.png';
 import KMWF4 from '../img/KM-WF4.png';
-import KMBI1 from '../img/KM-BI1.png';
-import KMBI2 from '../img/KM-BI2.png';
+import KMFONT from '../img/KM-FONT.png';
+import KMLOGO from '../img/KM-LOGO.png';
+import KMIM from '../img/KM-IM.png';
+import KMC1 from '../img/KM-COLOR1.png';
+import KMC2 from '../img/KM-COLOR2.png';
 
 function KalmontMountainResureAndSafety() {
     useEffect(() => {
         document.title = "Priscilla Cho - Kalmont Mountain";
+        window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -66,7 +70,7 @@ function KalmontMountainResureAndSafety() {
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part One</h2>
-                    <p>Brainstorming + Wireframing</p>
+                    <p>Ideation + Wireframing</p>
                 </div>
                 <div className="col-2">
                     <p className="project-p">
@@ -191,41 +195,60 @@ function KalmontMountainResureAndSafety() {
                         about recurrent news and updates, selecting a legible 
                         font which can be displayed in multiple weights was essential.
                     </p>
+                    <div className="image-display">
+                        <img className="work-img" src={KMFONT} alt="Sofia Pro bold and regular displayed and an example of the font used within the site"/>
+                        <p className="caption-p">
+                            Displaying Sofia Pro font and how the font was applied throughout the website.
+                        </p>
+                    </div>
                     <p className="project-p">
                         The logo was created using Sofia Pro, 
                         resulting in a straightforward and functional design 
                         that can be easily recognized and understood 
                         across multiple platforms. 
                     </p>
+                    <div className="image-display">
+                        <img className="work-img" src={KMLOGO} alt=""/>
+                        <p className="caption-p">
+                            The logo was created in white and black to be used on multiple different displays.
+                        </p>
+                    </div>
                     <p className="project-p">
                         A purple monochromatic colour palette was selected because 
                         purple symbolizes qualities of leadership and honour, 
-                        which align with the organization's values and commitment 
-                        to its work. Furthermore, the colour contrasts 
-                        gainst the white background, which creates 
+                        which aligns seamlessly with the organization's 
+                        values and commitment to its work. Furthermore, 
+                        the colour contrasts 
+                        against the white background, which creates 
                         visual balance. 
                     </p>
+                    <div className="image-display">
+                        <div>
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img className="work-img" src={KMC1} alt="Hightlighting dark and muted purple and how the colours are featured"/>
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className="work-img" src={KMC2} alt="Hightlighting bright purple and black, how the colours are featured"/>
+                                </Carousel.Item>
+                            </Carousel>
+                        </div>
+                        <div>
+                            <p className="caption-p">
+                                Outlining all the colours of the site and how these colours were applied on the website.
+                            </p>
+                        </div>
+                    </div>
                     <p className="project-p">
                         A purple overlay was applied to all images 
                         to achieve balance and maintain a 
                         consistent appearance across all pages.
                     </p>
                     <div className="image-display">
-                        <div>
-                            <Carousel>
-                                <Carousel.Item>
-                                    <img className="work-img" src={KMBI1} alt="Style guide highlight the colours used in this project"/>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img className="work-img" src={KMBI2} alt="Style guide containing the font, logo and image treatment used in this project"/>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div>
-                        <div>
-                            <p className="caption-p">
-                                Style guide of colours, fonts and image treatments used on Kalmont Mountain's website
-                            </p>
-                        </div>
+                        <img className="work-img" src={KMIM} alt="A purple overlay on an image, including an example."/>
+                        <p className="caption-p">
+                            Illustrating how image treatment was applied to images. 
+                        </p>
                     </div>
                 </div>
             </div>

@@ -20,8 +20,8 @@ const Footer = () => {
                         <p className='footer-p'>Digital Social Spheres</p>
                         <div className='grid-2'>
                             <a className="footer-link highlight" href="https://www.linkedin.com/in/priscilla-cho-039442205/">LinkedIn</a>
-                            <p className='footer-p-2'>/</p>
-                            <a className="footer-link highlight" href="https://www.instagram.com/designingwithp">Instagram</a>
+                            {/* <p className='footer-p-2'>/</p>
+                            <a className="footer-link highlight" href="https://www.instagram.com/designingwithp">Instagram</a> */}
                         </div>
                     </div>
                     <div className='left-align'>

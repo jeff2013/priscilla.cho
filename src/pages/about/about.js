@@ -6,6 +6,7 @@ import aboutimg from '../img/about-me.png';
 function About() {
     useEffect(() => {
         document.title = "Priscilla Cho - About";
+        window.scrollTo(0, 0);
     }, [])
 
     return (
@@ -31,8 +32,8 @@ function About() {
                         graphic design, but my growing sense of passion for 
                         creating practical tools and improving user experiences 
                         stem from many academic projects and case studies.
-                        I constantly seeking new ways to improve upon existing 
-                        designs and to create innovative solutions that solve real-world problems.
+                        I constantly seek new ways to improve existing 
+                        designs and create innovative solutions that solve real-world problems.
                     </p>
                 </div>
             </div>

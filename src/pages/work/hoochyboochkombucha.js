@@ -9,12 +9,10 @@ import HBMR2 from '../img/HB-MR-4.gif';
 import HBMR3 from '../img/HB-MR-2.gif';
 import HB1 from '../img/HB-1.png';
 
-
-
-
 function HoochyBoochKombucha() {
     useEffect(() => {
         document.title = "Priscilla Cho - Hoochy 'Booch Kombucha";
+        window.scrollTo(0, 0);
     }, [])
 
     return (

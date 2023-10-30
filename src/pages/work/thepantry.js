@@ -7,6 +7,7 @@ import TP1 from '../img/TP-1.png';
 function ThePantry() {
     useEffect(() => {
         document.title = "Priscilla Cho - The Pantry";
+        window.scrollTo(0, 0);
     }, [])
 
     return (

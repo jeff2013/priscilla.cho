@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 function ThePantry() {
     useEffect(() => {
         document.title = "Priscilla Cho - Festival Jazzdor";
+        window.scrollTo(0, 0);
     }, [])
 
     return (
