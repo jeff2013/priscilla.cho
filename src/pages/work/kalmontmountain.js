@@ -337,7 +337,7 @@ function KalmontMountainResureAndSafety() {
                 </div>
                 
                 <div className="col-2">
-                    <Link className="next-project-link" to="/festivaljazzdor">Next Project: Festival Jazzdor &rarr;</Link>
+                    <Link className="next-project-link" to="/hoochyboochkombucha">Next Project: Hoochy 'Booch Kombucha &rarr;</Link>
                 </div>
             </div>
         </div>

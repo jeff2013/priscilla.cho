@@ -163,7 +163,7 @@ function HoochyBoochKombucha() {
                         in user confusion regarding appropriate actions.
                     </p>
                     <p>
-                        
+
                     </p>
 
                     <div className="image-display">
@@ -259,8 +259,8 @@ function HoochyBoochKombucha() {
                 </div>
                 
                 <div className="col-2">
-                    <Link className="next-project-link" to="/thepantry">Next Project: The Pantry &rarr;</Link>
-                </div>
+                    <Link className="next-project-link" to="/kalmontmountain">Next Project: Kalmont Mountain Rescue + Safety Team &rarr;</Link>
+                </div> 
             </div>
         </div>
     )
