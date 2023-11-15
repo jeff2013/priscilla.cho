@@ -9,6 +9,9 @@ import HBMR2 from '../img/HB-MR-4.gif';
 import HBMR3 from '../img/HB-MR-2.gif';
 import HB1 from '../img/HB-1.png';
 
+import HBHE1 from '../img/HBHE1.png';
+import HBHE2 from '../img/HBHE2.png';
+
 function HoochyBoochKombucha() {
     useEffect(() => {
         document.title = "Priscilla Cho - Hoochy 'Booch Kombucha";
@@ -24,7 +27,27 @@ function HoochyBoochKombucha() {
                 <div className="col-2">
                     <h1 className="title">Hoochy 'Booch Kombucha</h1>
                     <h2 className="project-info">09.2022 - 12.2022</h2>
-                    <p className="project-info">Academic Research Study</p>
+                    <p className="project-info">User Experience Research - Academic Research Study</p>
+                    <p className="project-info">Contributors: Anna, Julia, Gracie + Chris</p>
+
+                    <div className="p-gap">
+                        <p className="project-info-p">
+                            Skills:
+                        </p>
+                        <p className="project-info-p">
+                            Research Methods, Usability Testing, Data Analysis, 
+                            Interviewing Skills, Communication Skills, User-Centered Design,
+                            Survey Design, Information Architecture, Collaboration + Critical Thinking
+                        </p>
+                    </div>
+                    <div className="p2-gap">
+                        <p className="project-info-p">
+                            Tools:
+                        </p>
+                        <p className="project-info-p">
+                            Figma, Zoom, Google Workspace
+                        </p>
+                    </div>
                 </div>
             </div>
             <div className="grid">
@@ -34,23 +57,24 @@ function HoochyBoochKombucha() {
 
                 <div className="col-2">
                     <p className="project-p">
-                        Hoochy 'Booch is a local small business based in Vancouver, B.C., 
-                        that produces and sells kombucha beverages. Hoochy 'Booch 
-                        also provides other services such as subscriptions, 
+                        Hoochy 'Booch is a small business based in Vancouver, B.C., 
+                        they produces and sells kombucha beverages and 
+                        also provides services such as subscriptions, 
                         home delivery, and growler refill programs.
                     </p>
+                    <h3 className="role-title">User Experience Researcher</h3>
                     <p className="project-p">
-                        Along my four classmates, I conducted initial research, 
-                        which prompted the intervention of Hoochy 'Booch's e-commerce site redesign. 
+                        Along my four classmates, 
+                        I conducted initial research, which prompted the intervention of Hoochy 
+                        'Booch's e-commerce site redesign. 
                         Based on my findings, I created data-based recommendations to improve 
                         the browsing and purchasing journey for existing and potential customers.
                     </p>
-
                     <div className="image-display">
                         <img className="work-img" src={HB1} alt="Redesign home page of Hoochy 'Booch Kombucha"/>
                         <div>
                             <p className="caption-p">
-                                Home page redesign for Hoochy 'Booch Kombucha's site. 
+                                Home page redesign for Hoochy 'Booch Kombucha's site
                             </p>
                         </div>
                     </div>
@@ -82,6 +106,20 @@ function HoochyBoochKombucha() {
                        multi-step process. I have also identified outdated pages on the website 
                        that are not aligned with the current business model.
                     </p>
+
+                    <div className="id-grid">
+                        <div className="image-grid">
+                            <div className="id">
+                                <img className="id-img" src={HBHE1} alt="Heuristic Evaluation part 1"/>
+                            </div>
+                            <div className="id">
+                                <img className="id-img" src={HBHE2} alt="Heuristic Evaluation part 2"/>
+                            </div>
+                        </div>
+                        <p className="caption-p">
+                            Notes from my heuristic evaluation on Hoochy 'Booch's website
+                        </p>
+                    </div>
 
                     <p className="project-p">
                         In our initial research, my team and I interviewed 
@@ -124,6 +162,9 @@ function HoochyBoochKombucha() {
                         between interactive elements was identified, resulting 
                         in user confusion regarding appropriate actions.
                     </p>
+                    <p>
+                        
+                    </p>
 
                     <div className="image-display">
                         <img className="work-img" src={HBAF1} alt="Examples of Affinity diagramming process"/>
@@ -131,7 +172,7 @@ function HoochyBoochKombucha() {
                             A partial snapshot of the affinity diagramming 
                             process involved generating comments from 
                             participants and organizing similar comments 
-                            into distinct sections. 
+                            into distinct sections
                         </p>
                     </div>
                 </div>
@@ -150,6 +191,13 @@ function HoochyBoochKombucha() {
                         I recommended enabling click functionality for all product 
                         images and eliminating hover feedback on non-clickable images. 
                     </p>
+                    <div className="image-display">
+                        <img className="work-img" src={HBMR3} alt="Enabling click functionality for all product images and elimiating hover feedback on non-clickable images"/>
+                        <p className="caption-p">
+                            Enabling click functionality for all product 
+                            images and elimiating hover feedback on non-clickable images 
+                        </p>
+                    </div>
                     <p className="project-p">  
                         Another significant issue raised by participants was the 
                         challenge of efficiently locating products. 
@@ -158,7 +206,13 @@ function HoochyBoochKombucha() {
                         cognitive capacity. To address this, I propose 
                         simplifying the navigation bar to alleviate user 
                         confusion when browsing products or services.
-                    </p> 
+                    </p>
+                    <div className="image-display">
+                        <img className="work-img" src={HBMR1} alt="Redesign of navigation bar"/>
+                        <p className="caption-p">
+                            Redesign of navigation bar
+                        </p>
+                    </div>
                     <p className="project-p"> 
                         Initially, product listings were displayed across 
                         various subpages, adding to the cognitive load 
@@ -166,6 +220,12 @@ function HoochyBoochKombucha() {
                         is to centralize all products under a single tab labelled "Shop" 
                         to help further reduce the user's cognitive load.
                     </p> 
+                    <div className="image-display">
+                        <img className="work-img" src={HBMR2} alt="Centralize products under one tab called 'Shop'"/>
+                        <p className="caption-p">
+                            Centralize products under one tab called 'Shop'
+                        </p>
+                    </div>
                     <p className="project-p">
                         Lastly, I've identified numerous outdated pages 
                         related to old products during the research phase. 
@@ -173,26 +233,6 @@ function HoochyBoochKombucha() {
                         pages to prevent additional confusion in the user's 
                         browsing experience.
                     </p>
-                    <div className="image-display">
-                        <div>
-                            <Carousel>
-                                <Carousel.Item>
-                                    <img className="work-img" src={HBMR3} alt="Enabling click functionality for all product images and elimiating hover feedback on non-clickable images"/>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img className="work-img" src={HBMR1} alt="Redesign of navigation bar"/>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img className="work-img" src={HBMR2} alt="Centralize products under one tab called 'Shop'"/>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div>
-                        <div>
-                            <p className="caption-p">
-                                Main mock up examples for the recommended e-commerce site redesign for Hoochy 'Booch.
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
 

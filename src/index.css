@@ -37,18 +37,11 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family: "Romie-Trial-Medium";
-  src: local("Romie-Trial-Medium"),
-    url("/src/pages/fonts/Romie-Trial-Medium.otf") format("opentype") , url("/src/pages/fonts/Romie-Trial-Medium.otf")
-      format("opentype")
-}
-
 .grid {    
   display: flex;
   flex-direction: row;
   column-gap: 15px;
-  padding: 92px 0 122px 0;
+  padding: 92px 0 92px 0;
 }
 
 .col-1 {

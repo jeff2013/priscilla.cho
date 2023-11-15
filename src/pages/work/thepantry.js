@@ -18,7 +18,28 @@ function ThePantry() {
                 <div className="col-2">
                     <h1 className="title">The Pantry</h1>
                     <h2 className="project-info">01.2021-04.2021</h2>
-                    <p className="project-info">Academic Design Project</p>
+                    <p className="project-info">Interface Design - Academic Design Project</p>
+                    <p className="project-info">Contributors: Bill + Ravi</p>
+
+                    <div className="p-gap">
+                        <p className="project-info-p">
+                            Skills:
+                        </p>
+                        <p className="project-info-p">
+                            Research, Brainstorming, Art Direction, 
+                            Design Process, Wireframing, Prototyping, 
+                            Interaction Design, User-Centered Design, Visual Design, 
+                            Communication + Collaboration
+                        </p>
+                    </div>
+                    <div className="p2-gap">
+                        <p className="project-info-p">
+                            Tools:
+                        </p>
+                        <p className="project-info-p">
+                            Figma, Framer
+                        </p>
+                    </div>
                 </div>
             </div>
             
@@ -37,6 +58,8 @@ function ThePantry() {
                         This application aims to tackle the issue 
                         of food waste among young adults.
                     </p>
+
+                    <h3 className="role-title">Interface Designer</h3>
                     <p className="project-p">
                         Within The Pantry project, my responsibilities 
                         encompassed conceptualizing and designing a functional
@@ -47,7 +70,7 @@ function ThePantry() {
                     <div className="image-display">
                         <img className="work-img" src={TP1} alt="Three phones showing the interfaces of The Pantry"/>
                         <p className="caption-p">
-                            Preview of The Pantry application (landing page, recipe page and instruction/tutorial page).
+                            Preview of The Pantry application (landing page, recipe page and instruction/tutorial page)
                         </p>
                     </div>
                 </div>
@@ -69,15 +92,13 @@ function ThePantry() {
                         among university students.
                     </p>
                     <p className="project-p">
-                    I produced preliminary sketches, beginning with the 
+                        I produced preliminary sketches, beginning with the 
                         landing page, my aim was to highlight 
                         the critical elements of emergency updates and educational 
                         resources. To achieve this, I envisioned incorporating 
                         a sidebar menu for the web, and a banner for moblie devices 
                         where users could access live updates 
                         and be informed to potential delays.
-
-                    
                     </p>
                 </div>
             </div>

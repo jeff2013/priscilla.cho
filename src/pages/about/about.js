@@ -26,7 +26,7 @@ function About() {
                     <h2 className='side-header'>A little bit about myself</h2>
                 </div>
                 <div className='col-2'>
-                    <p className="sub-header">I'm a designer + student</p>
+                    <h3 className="role-title">I'm a designer + student</h3>
                     <p className='about-p'>
                         My skills as a designer are grounded in visual and 
                         graphic design, but my growing sense of passion for 
@@ -42,7 +42,7 @@ function About() {
                 <div className='col-1'>
                 </div>
                 <div className='col-2'>
-                    <p className="sub-header">I'm an athlete</p>
+                    <h3 className="role-title">I'm an athlete</h3>
                     <p className="about-p">
                         Volleyball is more than just a game to me, it's a true passion 
                         that has been a significant part of my life for 12 years. 

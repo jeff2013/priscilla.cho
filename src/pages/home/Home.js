@@ -28,7 +28,7 @@ function Home() {
                     <a className="thumbnail" href="/festivaljazzdor">
                         <div className="project">
                             <h2 className="project-name">Festival Jazzdor</h2>
-                            <h2 className="project-name category">— Experimental Design</h2>
+                            <h2 className="project-name category">— Graphic + Interface Designer</h2>
                         </div>
                         <p className="project-description">
                             A mircosite to provide opportunities for past attendees to relive their festival memories, 
@@ -48,7 +48,7 @@ function Home() {
                     <a className="thumbnail" href="/hoochyboochkombucha"> 
                         <div className="project">
                                 <h2 className="project-name">Hoochy 'Booch Kombucha</h2>
-                                <h2 className="project-name category"> — User Experience Research</h2>
+                                <h2 className="project-name category"> — User Experience Researcher</h2>
                         </div>
                         <p className="project-description">
                             A research project evaluating Hoochy ‘Booch’s website to 
@@ -68,7 +68,7 @@ function Home() {
                     <a className="thumbnail" href="/thepantry">
                         <div className="project">
                             <h2 className="project-name">The Pantry</h2>
-                            <h2 className="project-name category"> — Interface Design</h2>
+                            <h2 className="project-name category"> — Interface Designr</h2>
                         </div>
                         <p className="project-description">
                             A pandemic-responsive application tailored to university students, 
@@ -87,7 +87,7 @@ function Home() {
                     <a className="thumbnail" href="/kalmontmountain">
                         <div className="project">
                             <h2 className="project-name">Kalmont Mountain Rescue + Safety Team</h2>
-                            <h2 className="project-name category"> — Interface Design</h2>
+                            <h2 className="project-name category"> — Interface Designer</h2>
                         </div>
                         <p className="project-description">
                             An academic project for a fabricated client to develop 
