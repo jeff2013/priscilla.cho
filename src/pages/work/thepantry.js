@@ -3,6 +3,11 @@ import "../work/work.css";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import TP1 from '../img/TP-1.png';
+import TPB1 from '../img/TPB1.png';
+import TPB2 from '../img/TPB2.png';
+import TPBI from '../img/TPBI.png';
+import TPC from '../img/TPC.png';
+import TPFONT from '../img/TP-FONT.png';
 
 function ThePantry() {
     useEffect(() => {
@@ -19,7 +24,7 @@ function ThePantry() {
                     <h1 className="title">The Pantry</h1>
                     <h2 className="project-info">01.2021-04.2021</h2>
                     <p className="project-info">Interface Design - Academic Design Project</p>
-                    <p className="project-info">Contributors: Bill + Ravi</p>
+                    <p className="project-info">Contributors: Bill + Raavi</p>
 
                     <div className="p-gap">
                         <p className="project-info-p">
@@ -42,7 +47,6 @@ function ThePantry() {
                     </div>
                 </div>
             </div>
-            
             <div className="grid">
                 <div className="col-1">
                     <h1 className="side-header">Introduction</h1>
@@ -75,7 +79,6 @@ function ThePantry() {
                     </div>
                 </div>
             </div>
-
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part One</h2>
@@ -100,9 +103,21 @@ function ThePantry() {
                         where users could access live updates 
                         and be informed to potential delays.
                     </p>
+                    <div className="id-grid">
+                        <div className="image-grid">
+                            <div className="id">
+                                <img className="id-img" src={TPB1} alt="Preliminary sketches on the landing page"/>
+                            </div>
+                            <div className="id">
+                                <img className="id-img" src={TPB2} alt="Preliminary sketches on the recipe page"/>
+                            </div>
+                        </div>
+                        <p className="caption-p">
+                            Preliminary sketches on The Pantry's landing and recipe page
+                        </p>
+                    </div>
                 </div>
             </div>
-
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part Two</h2>
@@ -110,11 +125,52 @@ function ThePantry() {
                 </div>
                 <div className="col-2">
                     <p className="project-p">
+
+                    </p>
+                    <p className="project-p">
+                        I led the creation and design of the art direction for the application. 
+                        I managed the entire process of designing the logo, 
+                        selecting fonts, and choosing a suitable color palette.
+                        Poppins was selected as one of the two fonts 
+                        for The Pantry application due to its contemporary 
+                        and geometric sans-serif design. Paired with Open Sans, 
+                        which contrasts Poppins with its humanist and neutral 
+                        design, it complements Poppins to achieve a readable 
+                        and friendly appearance.
+                    </p>
+                    <div className="image-display">
+                        <img className="work-img" src={TPFONT} alt="Poppins and Open Sans"/>
+                        <p className="caption-p">
+                            Poppins and Open Sans displayed and how 
+                            these fonts were used within the application
+                        </p>
+                    </div>
+                    <p className="project-p">
+                        I opted for a red monochromatic colour palette, 
+                        as red is widely recognized as an appetite-stimulating 
+                        colour. Research confirmed its ability to excite and 
+                        stimulate the appetite, aligning seamlessly with the 
+                        application's goal of encouraging users to step into 
+                        the kitchen. Additionally, the colours contrasts against 
+                        the white background, which creates visual balance.
+                    </p>
+                    <div className="image-display">
+                        <img className="work-img" src={TPC} alt="Outline of four colours used within the application"/>
+                        <p className="caption-p">
+                            Outlining all the colours and its usage within The Pantry application
+                        </p>
+                    </div>
+                    <p className="project-p">
                         coming soon!
                     </p>
+                    <div className="image-display">
+                        <img className="work-img" src={TPBI} alt="The Pantry logo in three different colours on three different backgrounds"/>
+                        <p className="caption-p">
+                            The Pantry logo used on three different coloured background
+                        </p>
+                    </div>
                 </div>
             </div>
-
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Part Three</h2>
@@ -126,7 +182,6 @@ function ThePantry() {
                      </p>
                 </div>
             </div>
-
             <div className="grid">
                 <div className="col-1">
                     <h2 className="side-header">Reflection</h2>
@@ -137,11 +192,9 @@ function ThePantry() {
                     </p>
                 </div>
             </div>
-
             <div className="next-project grid">
                 <div className="col-1">
                 </div>
-                
                 <div className="col-2">
                     <Link className="next-project-link" to="/kalmontmountain">Next Project: Kalmont Mountain Rescue + Safety &rarr;</Link>
                 </div>

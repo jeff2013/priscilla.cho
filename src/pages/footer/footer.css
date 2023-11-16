@@ -5,56 +5,36 @@
     margin: 45px 40px 30px 40px;    
 }
 
-.grid-1 {
+.footer-grid {
     display: flex;
     flex-direction: row;
     column-gap: 15px;
 }
 
-.grid-2{
+.footer-col-2{
     display: flex;
     flex-direction: row;
-    column-gap: 5px;
+    column-gap: 100px;
 }
 
 .footer-col-1 {
     width: 256px;
 }
 
-.footer-col-2 {
-    flex: 1 1;
-}
-
-.footer-col-3 {
-    display: flex;
-    flex-direction: row;
-    flex: 3 1;
-    justify-content: space-between;
-}
-
 .footer-p {
     font-family: 'DM Mono', monospace;
     font-size: 12px;
-    margin: 5px 0;
+    margin: 5px 0 0 0;
     color: rgba(0,0,0,.4);
 }
 
-.footer-p-2 {
-    font-family: 'DM Mono', monospace;
-    font-size: 12px;
-    color: rgba(0,0,0,.4);
+.footer-text {
+    margin-top: 9px;
 }
-
 
 .footer-link {
     font-family: 'DM Sans', sans-serif;
     font-size: 12px;
     text-decoration: none;
     color: black;
-}
-
-.left-align {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }

@@ -162,10 +162,6 @@ function HoochyBoochKombucha() {
                         between interactive elements was identified, resulting 
                         in user confusion regarding appropriate actions.
                     </p>
-                    <p>
-
-                    </p>
-
                     <div className="image-display">
                         <img className="work-img" src={HBAF1} alt="Examples of Affinity diagramming process"/>
                         <p className="caption-p">

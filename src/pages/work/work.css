@@ -19,7 +19,7 @@
     font-size: 12px;
     margin: 0;
     color: #999999;
-    width: 380px;
+    width: 373px;
 }
 
 .sub-header {
@@ -112,6 +112,6 @@
   }
 
   @media (max-width: 1330px) {
-    
+
 
   }
