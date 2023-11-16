@@ -81,13 +81,6 @@ function KalmontMountainResureAndSafety() {
                         in crafting an intuitive, visually appealing interface 
                         to entice and educate users.
                     </p>
-                </div>
-            </div>
-
-            <div className="grid">
-                <div className="col-1">
-                </div>
-                <div className="col-2">
                     <div className="image-display">
                         <img className="work-img" src={KMHP} alt="Offical landing page for Kalmont Mountain Safety + Rescue Team"/>
                         <p className="caption-p">

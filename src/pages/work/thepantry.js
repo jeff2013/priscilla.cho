@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import TP1 from '../img/TP-1.png';
 import TPB1 from '../img/TPB1.png';
 import TPB2 from '../img/TPB2.png';
-import TPBI from '../img/TPBI.png';
+import TPLOGO from '../img/TP-LOGO.png';
 import TPC from '../img/TPC.png';
 import TPFONT from '../img/TP-FONT.png';
 
@@ -164,9 +164,9 @@ function ThePantry() {
                         coming soon!
                     </p>
                     <div className="image-display">
-                        <img className="work-img" src={TPBI} alt="The Pantry logo in three different colours on three different backgrounds"/>
+                        <img className="work-img" src={TPLOGO} alt="The Pantry logo in three different colours on three different backgrounds"/>
                         <p className="caption-p">
-                            The Pantry logo used on three different coloured background
+                            The Pantry logo used on four different coloured background
                         </p>
                     </div>
                 </div>
